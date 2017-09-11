@@ -1,0 +1,1202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woohoo\n"
+"POT-Creation-Date: 2017-09-11 14:22+0700\n"
+"PO-Revision-Date: 2017-09-11 18:19+0700\n"
+"Language-Team: Bdaia <info@info.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;gettext;gettext_noop;"
+"woohoo_lang_e;woohoo_lang_ee\n"
+"Last-Translator: \n"
+"Language: vi\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:23 framework/admin/framework-default-texts.php:3
+msgid "Nothing Found"
+msgstr "Không tìm thấy"
+
+#: 404.php:26 framework/admin/framework-default-texts.php:4
+msgid "Sorry, the page you were looking for was not found."
+msgstr "Xin lỗi, trang bạn đang tìm kiếm không được tìm thấy."
+
+#: author.php:20 category.php:22 framework/admin/framework-default-texts.php:10
+#: tag.php:20
+msgid "Feed Subscription"
+msgstr "Đăng ký nguồn cấp dữ liệu"
+
+#: author.php:90 framework/admin/framework-default-texts.php:11
+msgid "Posts By"
+msgstr "Đăng bởi"
+
+#: footer.php:56
+msgid "Top Tags"
+msgstr "Các từ khóa đứng đầu"
+
+#: footer.php:85 framework/admin/framework-default-texts.php:112
+msgid "About us"
+msgstr "Về chúng tôi"
+
+#: footer.php:95 framework/admin/framework-default-texts.php:113
+msgid "Follow us"
+msgstr "Theo chúng tôi"
+
+#: framework/admin/framework-default-texts.php:5
+#: framework/global/check-also.php:77
+msgid "Check Also"
+msgstr "Xem Thêm"
+
+#: framework/admin/framework-default-texts.php:6
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Lưu trữ hàng ngày: %s"
+
+#: framework/admin/framework-default-texts.php:7
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Lưu trữ hàng tháng: %s"
+
+#: framework/admin/framework-default-texts.php:8
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Lưu trữ hàng năm: %s"
+
+#: framework/admin/framework-default-texts.php:9
+msgid "Blog Archives"
+msgstr "Lưu trữ Blog"
+
+#: framework/admin/framework-default-texts.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Bài viết này được bảo vệ bằng mật khẩu. Nhập mật khẩu để xem các bình luận."
+
+#: framework/admin/framework-default-texts.php:13
+msgid "No Comments"
+msgstr "Chưa có bình luận"
+
+#: framework/admin/framework-default-texts.php:14
+msgid "One Comment"
+msgstr "1 Bình luận"
+
+#: framework/admin/framework-default-texts.php:15
+#: framework/single/post-comments.php:10
+#: includes/widgets/bdaia-widget-social-counter.php:620
+#: includes/widgets/bdaia-widget-tabs.php:128
+msgid "Comments"
+msgstr "Bình luận"
+
+#: framework/admin/framework-default-texts.php:16
+#: framework/single/post-comments.php:17
+msgid "Comments are closed."
+msgstr "Bình luận bị đóng."
+
+#: framework/admin/framework-default-texts.php:17
+#: framework/ajax/ralated/related-articles.php:64
+msgid "Load More Related Articles"
+msgstr "Tải thêm bài viết liên quan"
+
+#: framework/admin/framework-default-texts.php:18
+#: framework/ajax/ralated/related-author.php:67
+msgid "Load More By"
+msgstr "Tải thêm bởi"
+
+#: framework/admin/framework-default-texts.php:19
+#: framework/ajax/ralated/related-cat.php:71
+msgid "Load More In"
+msgstr "Tải thêm trong"
+
+#: framework/admin/framework-default-texts.php:20
+#: framework/blocks/loop/loop1.php:32 framework/blocks/loop/loop10.php:52
+#: framework/blocks/loop/loop11.php:43 framework/blocks/loop/loop13.php:65
+#: framework/blocks/loop/loop2.php:39 framework/blocks/loop/loop3.php:45
+#: framework/blocks/loop/loop4.php:44 framework/blocks/loop/loop8.php:54
+#: framework/blocks/loop/loop9.php:53 framework/blocks/loop/timeline.php:8
+#: framework/global/bdaia-cat-feature-posts.php:152
+#: framework/global/bdaia-feature-posts.php:201
+#: framework/single/post-meta-info.php:25
+msgid "By"
+msgstr "Bởi"
+
+#: framework/admin/framework-default-texts.php:21
+#: framework/blocks/loop/loop1.php:38 framework/blocks/loop/loop2.php:45
+#: framework/blocks/loop/timeline.php:13
+msgid "in"
+msgstr "trong"
+
+#: framework/admin/framework-default-texts.php:22
+#: framework/blocks/loop/loop1.php:59 framework/blocks/loop/loop10.php:64
+#: framework/blocks/loop/loop2.php:52 framework/blocks/loop/loop3.php:58
+#: framework/blocks/loop/loop6.php:50 framework/blocks/loop/loop8.php:69
+#: framework/blocks/loop/loop9.php:68 template-hot.php:96
+#: template-popular.php:80
+msgid "Read More"
+msgstr "Xem thêm"
+
+#: framework/admin/framework-default-texts.php:23
+#: framework/blocks/loop/loop13.php:7
+#: framework/global/bdaia-cat-feature-posts.php:160
+#: framework/single/post-meta-info.php:37
+msgid "Posted on"
+msgstr "Đăng trên"
+
+#: framework/admin/framework-default-texts.php:24
+#: framework/blocks/loop/loop13.php:59
+msgid "Continue Reading"
+msgstr "Chi tiết"
+
+#: framework/admin/framework-default-texts.php:25
+#: framework/functions/functions-breadcrumb.php:32
+msgid "Home"
+msgstr "Trang chủ"
+
+#: framework/admin/framework-default-texts.php:26
+#: framework/functions/functions-breadcrumb.php:96
+msgid "Search Results for:"
+msgstr "Kết quả tìm kiếm:"
+
+#: framework/admin/framework-default-texts.php:27
+#: framework/functions/functions-breadcrumb.php:130
+msgid "Tag Archives:"
+msgstr "Lưu trữ từ khóa:"
+
+#: framework/admin/framework-default-texts.php:28
+#: framework/functions/functions-breadcrumb.php:143
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+#: framework/admin/framework-default-texts.php:29
+#: framework/functions/functions-breadcrumb.php:149
+msgid "page"
+msgstr "trang"
+
+#: framework/admin/framework-default-texts.php:30
+#: framework/functions/functions-login.php:28
+#: framework/functions/functions-theme.php:2235
+msgid "Welcome"
+msgstr "Chào mừng"
+
+#: framework/admin/framework-default-texts.php:31
+#: framework/functions/functions-login.php:39
+#: framework/functions/functions-theme.php:2237
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+#: framework/admin/framework-default-texts.php:32
+#: framework/functions/functions-login.php:42
+#: framework/functions/functions-theme.php:2240
+msgid "Your Profile"
+msgstr "Hồ sơ của bạn"
+
+#: framework/admin/framework-default-texts.php:33
+#: framework/functions/functions-login.php:45
+#: framework/functions/functions-theme.php:2243
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: framework/admin/framework-default-texts.php:34
+#: framework/functions/functions-login.php:100
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+#: framework/admin/framework-default-texts.php:35
+#: framework/functions/functions-login.php:101
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: framework/admin/framework-default-texts.php:36
+#: framework/functions/functions-login.php:104
+msgid "Remember Me"
+msgstr "Ghi nhớ đăng nhập"
+
+#: framework/admin/framework-default-texts.php:37
+#: framework/admin/framework-default-texts.php:114
+#: framework/functions/functions-login.php:105
+#: includes/widgets/bdaia-widget-login.php:44
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: framework/admin/framework-default-texts.php:38
+msgid "Sign up"
+msgstr "Đăng ký"
+
+#: framework/admin/framework-default-texts.php:39
+#: framework/functions/functions-login.php:111
+msgid "Forgot your password?"
+msgstr "Quên mật khẩu?"
+
+#: framework/admin/framework-default-texts.php:40
+#: framework/functions/functions-pagenav.php:171
+msgid "Page"
+msgstr "Trang"
+
+#: framework/admin/framework-default-texts.php:41
+#: framework/functions/functions-pagenav.php:171
+msgid "of"
+msgstr "của"
+
+#: framework/admin/framework-default-texts.php:42
+#: framework/functions/functions-pagenav.php:174
+msgid "First"
+msgstr "Đầu tiên"
+
+#: framework/admin/framework-default-texts.php:43
+#: framework/functions/functions-pagenav.php:175
+msgid "Last"
+msgstr "Cuối cùng"
+
+#: framework/admin/framework-default-texts.php:44
+#: framework/functions/functions-post-like.php:116
+#: framework/functions/functions-post-like.php:119
+msgid "I like this article"
+msgstr "Tôi thích bài viết này"
+
+#: framework/admin/framework-default-texts.php:45
+#: framework/functions/functions-theme.php:159
+msgid "Navigation Menu"
+msgstr "Menu điều hướng"
+
+#: framework/admin/framework-default-texts.php:46
+#: framework/functions/functions-theme.php:160
+msgid "Top Menu"
+msgstr "Menu phía trên"
+
+#: framework/admin/framework-default-texts.php:47
+#: framework/functions/functions-theme.php:161
+msgid "Footer Menu"
+msgstr "Menu chân"
+
+#: framework/admin/framework-default-texts.php:48
+msgid "ago"
+msgstr "cách đây"
+
+#: framework/admin/framework-default-texts.php:49
+msgid "min read"
+msgstr "phút đọc"
+
+#: framework/admin/framework-default-texts.php:50
+msgid "second read"
+msgstr "giây đọc"
+
+#: framework/admin/framework-default-texts.php:51
+msgid "at"
+msgstr "tại"
+
+#: framework/admin/framework-default-texts.php:52
+msgid "Edit"
+msgstr "Sửa"
+
+#: framework/admin/framework-default-texts.php:53
+msgid "Your comment is awaiting moderation."
+msgstr "Bình luận của bạn đang chờ kiểm duyệt."
+
+#: framework/admin/framework-default-texts.php:54
+msgid "Reply"
+msgstr "Trả lời"
+
+#: framework/admin/framework-default-texts.php:55
+#: framework/functions/functions-typo.php:91
+msgid "Default Font"
+msgstr "Font mặc định"
+
+#: framework/admin/framework-default-texts.php:56
+#: framework/functions/functions-widgets.php:60
+msgid "Primary Normal Widget Area"
+msgstr "Khu vực tiện ích chính"
+
+#: framework/admin/framework-default-texts.php:57
+#: framework/functions/functions-widgets.php:62
+msgid "The Primary Normal widget area appears in all pages ."
+msgstr "Khu vực tiện ích chính xuất hiện trong tất cả các trang."
+
+#: framework/admin/framework-default-texts.php:58
+#: framework/functions/functions-widgets.php:69
+msgid "Post Sidebar"
+msgstr "Thanh bên bài viết"
+
+#: framework/admin/framework-default-texts.php:59
+#: framework/functions/functions-widgets.php:71
+msgid "This sidebar will be used by all of your posts ."
+msgstr "Thanh bên này sẽ được sử dụng bởi tất cả các bài viết của bạn."
+
+#: framework/admin/framework-default-texts.php:60
+#: framework/functions/functions-widgets.php:78
+msgid "Page Sidebar"
+msgstr "Thanh bên trang"
+
+#: framework/admin/framework-default-texts.php:61
+#: framework/functions/functions-widgets.php:80
+msgid "This sidebar will be used by all of your standard pages ."
+msgstr "Thanh bên này sẽ được sử dụng bởi tất cả các trang tiêu chuẩn của bạn."
+
+#: framework/admin/framework-default-texts.php:62
+#: framework/functions/functions-widgets.php:87
+msgid "Categories Sidebar"
+msgstr "Thanh bên danh mục"
+
+#: framework/admin/framework-default-texts.php:63
+#: framework/functions/functions-widgets.php:89
+msgid "This sidebar will be used by all of your standard categories ."
+msgstr ""
+"Thanh bên này sẽ được sử dụng bởi tất cả các danh mục tiêu chuẩn của bạn."
+
+#: framework/admin/framework-default-texts.php:64
+#: framework/functions/functions-widgets.php:99
+msgid "Shop"
+msgstr "Cửa hàng"
+
+#: framework/admin/framework-default-texts.php:65
+#: framework/functions/functions-widgets.php:101
+msgid "This sidebar will be used by all of your standard Woocommerce ."
+msgstr ""
+"Thanh bên này sẽ được sử dụng bởi tất cả Woocommerce tiêu chuẩn của bạn."
+
+#: framework/admin/framework-default-texts.php:66
+#: framework/functions/functions-widgets.php:113
+msgid "First Footer Widget Area"
+msgstr "Khu vực Tiện ích Chân trang Đầu tiên"
+
+#: framework/admin/framework-default-texts.php:67
+#: framework/functions/functions-widgets.php:115
+msgid "The first footer widget area"
+msgstr "Khu vực tiện ích chân trang đầu tiên"
+
+#: framework/admin/framework-default-texts.php:68
+#: framework/functions/functions-widgets.php:121
+msgid "Second Footer Widget Area"
+msgstr "Khu vực Tiện ích Chân trang Thứ hai"
+
+#: framework/admin/framework-default-texts.php:69
+#: framework/functions/functions-widgets.php:123
+msgid "The Second footer widget area"
+msgstr "Khu vực tiện ích chân trang thứ hai"
+
+#: framework/admin/framework-default-texts.php:70
+#: framework/functions/functions-widgets.php:130
+msgid "Third Footer Widget Area"
+msgstr "Khu vực Tiện ích Chân trang Thứ ba"
+
+#: framework/admin/framework-default-texts.php:71
+#: framework/functions/functions-widgets.php:132
+msgid "The Third footer widget area"
+msgstr "Khu vực tiện ích chân trang thứ ba"
+
+#: framework/admin/framework-default-texts.php:72
+#: framework/functions/functions-widgets.php:139
+msgid "Fourth Footer Widget Area"
+msgstr "Khu vực Tiện ích Chân trang Thứ tư"
+
+#: framework/admin/framework-default-texts.php:73
+#: framework/functions/functions-widgets.php:141
+msgid "The Fourth footer widget area"
+msgstr "Khu vực tiện ích chân trang thứ tư"
+
+#: framework/admin/framework-default-texts.php:74
+#: framework/global/bdaia-feature-posts.php:209
+msgid "Posted"
+msgstr "Được đăng"
+
+#: framework/admin/framework-default-texts.php:75
+#: framework/global/bdaia-post-review.php:156
+msgid "Your Rating"
+msgstr "Đánh giá của bạn"
+
+#: framework/admin/framework-default-texts.php:76
+#: framework/global/bdaia-post-review.php:157
+msgid "User Rating"
+msgstr "Đánh giá của người dùng"
+
+#: framework/admin/framework-default-texts.php:77
+#: framework/global/bdaia-post-review.php:158
+msgid "votes"
+msgstr "bình chọn"
+
+#: framework/admin/framework-default-texts.php:78
+#: framework/global/bdaia-post-sharing.php:58
+#: framework/global/bdaia-post-sharing.php:67
+#: framework/global/bdaia-post-sharing.php:76
+#: framework/global/bdaia-post-sharing.php:85
+#: framework/global/bdaia-post-sharing.php:96
+#: framework/global/bdaia-post-sharing.php:105
+#: framework/global/bdaia-post-sharing.php:118
+msgid "Share on"
+msgstr "Chia sẻ trên"
+
+#: framework/admin/framework-default-texts.php:79
+#: framework/global/bdaia-related.php:27
+msgid "Related Articles"
+msgstr "Bài viết liên quan"
+
+#: framework/admin/framework-default-texts.php:80
+#: framework/global/bdaia-related.php:35
+msgid "More By"
+msgstr "Thêm bởi"
+
+#: framework/admin/framework-default-texts.php:81
+#: framework/global/bdaia-related.php:50
+msgid "More In"
+msgstr "Thêm trong"
+
+#: framework/admin/framework-default-texts.php:82
+#: framework/global/search-ajax.php:106
+msgid "View All Results"
+msgstr "Xem tất cả các kết quả"
+
+#: framework/admin/framework-default-texts.php:83
+#: framework/headers/header-navigation.php:65
+msgid "New"
+msgstr "Mới"
+
+#: framework/admin/framework-default-texts.php:84
+#: framework/headers/header-navigation.php:66
+msgid "Articles"
+msgstr "Các bài viết"
+
+#: framework/admin/framework-default-texts.php:85
+#: framework/headers/header-navigation.php:78
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: framework/admin/framework-default-texts.php:86
+#: framework/headers/header-navigation.php:100
+msgid "View your shopping cart"
+msgstr "Xem giỏ hàng của bạn"
+
+#: framework/admin/framework-default-texts.php:87
+#: framework/headers/header-navigation.php:109
+msgid "Random Article"
+msgstr "Bài viết ngẫu nhiên"
+
+#: framework/admin/framework-default-texts.php:88
+#: framework/headers/header-topbar.php:56
+#: framework/headers/header-topbar.php:89
+msgid "Select your Top Menu from wp menus"
+msgstr "Chọn Menu phía trên của bạn từ các menu wp"
+
+#: framework/admin/framework-default-texts.php:89
+#: framework/single/post-mailchimp-box.php:12
+msgid "Get the best viral stories straight into your inbox!"
+msgstr "Nhận những câu chuyện về virut hay nhất vào hộp thư của bạn!"
+
+#: framework/admin/framework-default-texts.php:90
+msgid "Don&rsquo;t worry we don&rsquo;t spam"
+msgstr "Không phải lo lắng chúng tôi không phải là spam"
+
+#: framework/admin/framework-default-texts.php:91
+#: framework/shorty/includes/block1-functions.php:149
+#: framework/shorty/includes/block10-functions.php:152
+#: framework/shorty/includes/block11-functions.php:150
+#: framework/shorty/includes/block13-functions.php:159
+#: framework/shorty/includes/block2-functions.php:165
+#: framework/shorty/includes/block3-functions.php:153
+#: framework/shorty/includes/block4-functions.php:154
+#: framework/shorty/includes/block5-functions.php:154
+#: framework/shorty/includes/block6-functions.php:163
+#: framework/shorty/includes/block7-functions.php:153
+#: framework/shorty/includes/block8-functions.php:153
+#: framework/shorty/includes/block9-functions.php:152
+#: framework/shorty/includes/timeline-functions.php:154
+msgid "Show More News"
+msgstr "Hiển thị thêm tin tức"
+
+#: framework/admin/framework-default-texts.php:92
+#: framework/single/post-comments.php:10
+msgid "Click To Comment"
+msgstr "Nhấn để bình luận"
+
+#: framework/admin/framework-default-texts.php:93
+#: framework/single/post-comments.php:10
+msgid "Comment"
+msgstr "Bình luận"
+
+#: framework/admin/framework-default-texts.php:94
+#: framework/single/post-mailchimp-box.php:11
+msgid "Want more stuff like this?"
+msgstr "Bạn muốn nhiều thứ như thế này?"
+
+#: framework/admin/framework-default-texts.php:95
+#: framework/single/post-next-prev.php:9
+msgid "Previous article"
+msgstr "Bài viết trước"
+
+#: framework/admin/framework-default-texts.php:96
+#: framework/single/post-next-prev.php:12
+msgid "Next article"
+msgstr "Bài viết tiếp theo"
+
+#: framework/admin/framework-default-texts.php:97
+#: includes/widgets/bdaia-widget-box1.php:223
+#: includes/widgets/bdaia-widget-box2.php:221
+#: includes/widgets/bdaia-widget-box3.php:223
+#: includes/widgets/bdaia-widget-box4.php:220
+#: includes/widgets/bdaia-widget-box5.php:220
+#: includes/widgets/bdaia-widget-box6.php:220
+#: includes/widgets/bdaia-widget-box7.php:220
+#: includes/widgets/bdaia-widget-box8.php:224
+msgid "Load more"
+msgstr "Tải thêm"
+
+#: framework/admin/framework-default-texts.php:98
+#: includes/widgets/bdaia-widget-social-counter.php:542
+#: includes/widgets/bdaia-widget-social-counter.php:554
+#: includes/widgets/bdaia-widget-social-counter.php:576
+#: includes/widgets/bdaia-widget-social-counter.php:583
+#: includes/widgets/bdaia-widget-social-counter.php:590
+#: includes/widgets/bdaia-widget-social-counter.php:597
+msgid "Followers"
+msgstr "Người theo dõi"
+
+#: framework/admin/framework-default-texts.php:99
+#: includes/widgets/bdaia-widget-social-counter.php:548
+msgid "Fans"
+msgstr "Người hâm mộ"
+
+#: framework/admin/framework-default-texts.php:100
+#: includes/widgets/bdaia-widget-social-counter.php:564
+#: includes/widgets/bdaia-widget-social-counter.php:570
+msgid "Subscribers"
+msgstr "Người đăng ký"
+
+#: framework/admin/framework-default-texts.php:101
+#: includes/widgets/bdaia-widget-social-counter.php:613
+msgid "Posts"
+msgstr "Bài viết"
+
+#: framework/admin/framework-default-texts.php:102
+#: includes/widgets/bdaia-widget-social-counter.php:602
+#: includes/widgets/bdaia-widget-social-counter.php:607
+#: includes/widgets/bdaia-widget-social-counter.php:627
+msgid "Members"
+msgstr "Thành viên"
+
+#: framework/admin/framework-default-texts.php:103
+#: includes/widgets/bdaia-widget-tabs.php:118
+msgid "Popular"
+msgstr "Phổ biến"
+
+#: framework/admin/framework-default-texts.php:104
+#: includes/widgets/bdaia-widget-tabs.php:123
+msgid "Recent"
+msgstr "Gần đây"
+
+#: framework/admin/framework-default-texts.php:105
+#: includes/widgets/bdaia-widget-tabs.php:133
+msgid "Tags"
+msgstr "Từ khóa"
+
+#: framework/admin/framework-default-texts.php:106
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Bạn đã sẵn sàng để đăng bài viết đầu tiên của bạn? <a href=\"%1$s\"> Bắt đầu "
+"tại đây </a>."
+
+#: framework/admin/framework-default-texts.php:107
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Xin lỗi, nhưng không có gì phù hợp với cụm từ tìm kiếm của bạn. Vui lòng thử "
+"lại với một số từ khóa khác nhau."
+
+#: framework/admin/framework-default-texts.php:108
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Có vẻ như chúng tôi không thể tìm thấy những gì bạn đang tìm kiếm. Có lẽ tìm "
+"kiếm có thể giúp đỡ."
+
+#: framework/admin/framework-default-texts.php:109
+msgid "searching can help."
+msgstr "tìm kiếm có thể giúp đỡ."
+
+#: framework/admin/framework-default-texts.php:110
+msgid "Pages:"
+msgstr "Trang:"
+
+#: framework/admin/framework-default-texts.php:111
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm cho: %s"
+
+#: framework/admin/framework-default-texts.php:115
+msgid "Welcome!"
+msgstr "Chào mừng!"
+
+#: framework/admin/framework-default-texts.php:116
+msgid "Log into your account"
+msgstr "Đăng nhập vào tài khoản của bạn"
+
+#: framework/admin/framework-default-texts.php:117
+#: framework/global/bdaia-post-review.php:103
+msgid "Summary"
+msgstr "Tóm tắt"
+
+#: framework/admin/framework-tgm.php:334
+msgid "Install Required Plugins"
+msgstr "Cài đặt plugins cần thiết"
+
+#: framework/admin/framework-tgm.php:335
+msgid "Install Plugins"
+msgstr "Cài đặt Plugins"
+
+#: framework/admin/framework-tgm.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Đang cài đặt plugin: %s"
+
+#: framework/admin/framework-tgm.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Đang cập nhật plugin: %s"
+
+#: framework/admin/framework-tgm.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Có lỗi với plugin API."
+
+#: framework/admin/framework-tgm.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Quay trở lại trang plugin cần thiết"
+
+#: framework/admin/framework-tgm.php:393 framework/admin/framework-tgm.php:921
+#: framework/admin/framework-tgm.php:2627
+#: framework/admin/framework-tgm.php:3674
+msgid "Return to the Dashboard"
+msgstr "Quay lại bảng điều khiển"
+
+#: framework/admin/framework-tgm.php:394 framework/admin/framework-tgm.php:3253
+msgid "Plugin activated successfully."
+msgstr "Plugin kích hoạt thành công."
+
+#: framework/admin/framework-tgm.php:395
+msgid "The following plugin was activated successfully:"
+msgstr "Plugin sau đã được kích hoạt thành công:"
+
+#: framework/admin/framework-tgm.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Không có hành động. Plugin%1$s đã kích hoạt sẵn."
+
+#: framework/admin/framework-tgm.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin không kích hoạt. Một phiên bản cao hơn của %s là cần thiết cho theme "
+"này. Vui lòng cập nhật plugin."
+
+#: framework/admin/framework-tgm.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tất cả các plugin được cài đặt và kích hoạt thành công. %1$s"
+
+#: framework/admin/framework-tgm.php:402
+msgid "Dismiss this notice"
+msgstr "Tắt thông báo"
+
+#: framework/admin/framework-tgm.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Có một hoặc nhiều plugin được yêu cầu hoặc được khuyến khích để cài đặt, cập "
+"nhật hoặc kích hoạt."
+
+#: framework/admin/framework-tgm.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Vui lòng liên hệ Admin để được hỗ trợ."
+
+#: framework/admin/framework-tgm.php:608
+msgid "Update Required"
+msgstr "Cần cập nhật"
+
+#: framework/admin/framework-tgm.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Đặt biến cấu hình parent_slug thay thế."
+
+#: framework/admin/framework-tgm.php:1028
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Gói plugin từ xa không chứa thư mục có slug mong muốn và đổi tên không hoạt "
+"động."
+
+#: framework/admin/framework-tgm.php:1028
+#: framework/admin/framework-tgm.php:1031
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Vui lòng liên hệ với nhà cung cấp plugin và yêu cầu họ đóng gói plugin của "
+"họ theo hướng dẫn của WordPress."
+
+#: framework/admin/framework-tgm.php:1031
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Gói plugin từ xa bao gồm nhiều tệp, nhưng các tệp không được đóng gói trong "
+"một thư mục."
+
+#: framework/admin/framework-tgm.php:2076
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: framework/admin/framework-tgm.php:2367
+msgid "Required"
+msgstr "Bắt buộc"
+
+#: framework/admin/framework-tgm.php:2370
+msgid "Recommended"
+msgstr "Khuyến nghị"
+
+#: framework/admin/framework-tgm.php:2386
+msgid "WordPress Repository"
+msgstr "Kho WordPress"
+
+#: framework/admin/framework-tgm.php:2389
+msgid "External Source"
+msgstr "Nguồn ngoài"
+
+#: framework/admin/framework-tgm.php:2392
+msgid "Pre-Packaged"
+msgstr "Đóng gói trước"
+
+#: framework/admin/framework-tgm.php:2409
+msgid "Not Installed"
+msgstr "Chưa cài đặt"
+
+#: framework/admin/framework-tgm.php:2413
+msgid "Installed But Not Activated"
+msgstr "Cài đặt nhưng chưa kích hoạt"
+
+#: framework/admin/framework-tgm.php:2415
+msgid "Active"
+msgstr "Kích hoạt"
+
+#: framework/admin/framework-tgm.php:2421
+msgid "Required Update not Available"
+msgstr "Yêu cầu cập nhật không tồn tại"
+
+#: framework/admin/framework-tgm.php:2424
+msgid "Requires Update"
+msgstr "Yêu cầu cập nhật"
+
+#: framework/admin/framework-tgm.php:2427
+msgid "Update recommended"
+msgstr "Khuyến nghị cập nhật"
+
+#: framework/admin/framework-tgm.php:2584
+msgid "Installed version:"
+msgstr "Phiên bản được cài đặt:"
+
+#: framework/admin/framework-tgm.php:2592
+msgid "Minimum required version:"
+msgstr "Phiên bản yêu cầu tối thiểu:"
+
+#: framework/admin/framework-tgm.php:2604
+msgid "Available version:"
+msgstr "Phiên bản sẵn có:"
+
+#: framework/admin/framework-tgm.php:2627
+msgid "No plugins to install, update or activate."
+msgstr "Không có plugin để cài đặt, cập nhật hoặc kích hoạt."
+
+#: framework/admin/framework-tgm.php:2641
+msgid "Plugin"
+msgstr "Plugin"
+
+#: framework/admin/framework-tgm.php:2642
+msgid "Source"
+msgstr "Nguồn"
+
+#: framework/admin/framework-tgm.php:2643
+msgid "Type"
+msgstr "Loại"
+
+#: framework/admin/framework-tgm.php:2647
+msgid "Version"
+msgstr "Phiên bản"
+
+#: framework/admin/framework-tgm.php:2648
+msgid "Status"
+msgstr "Tình trạng"
+
+#: framework/admin/framework-tgm.php:2697
+#, php-format
+msgid "Install %2$s"
+msgstr "Cài đặt %2$s"
+
+#: framework/admin/framework-tgm.php:2702
+#, php-format
+msgid "Update %2$s"
+msgstr "Cập nhật %2$s"
+
+#: framework/admin/framework-tgm.php:2708
+#, php-format
+msgid "Activate %2$s"
+msgstr "Kích hoạt %2$s"
+
+#: framework/admin/framework-tgm.php:2778
+msgid "Upgrade message from the plugin author:"
+msgstr "Nâng cấp thông báo từ tác giả plugin:"
+
+#: framework/admin/framework-tgm.php:2811
+msgid "Install"
+msgstr "Cài đặt"
+
+#: framework/admin/framework-tgm.php:2817
+msgid "Update"
+msgstr "Cập nhật"
+
+#: framework/admin/framework-tgm.php:2820
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: framework/admin/framework-tgm.php:2851
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Không có plugin nào được chọn để cài đặt. Không có hành động."
+
+#: framework/admin/framework-tgm.php:2853
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Không có plugin nào được chọn để cập nhật. Không có hành động."
+
+#: framework/admin/framework-tgm.php:2894
+msgid "No plugins are available to be installed at this time."
+msgstr "Không có plugin nào tồn tại để cài đặt lúc này."
+
+#: framework/admin/framework-tgm.php:2896
+msgid "No plugins are available to be updated at this time."
+msgstr "Không có plugin nào tồn tại để cập nhật lúc này."
+
+#: framework/admin/framework-tgm.php:3002
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Không có plugin nào được chọn để kích hoạt. Không có hành động."
+
+#: framework/admin/framework-tgm.php:3028
+msgid "No plugins are available to be activated at this time."
+msgstr "Không có plugin nào tồn tại để kích hoạt lúc này."
+
+#: framework/admin/framework-tgm.php:3252
+msgid "Plugin activation failed."
+msgstr "Plugin kích hoạt thất bại."
+
+#: framework/admin/framework-tgm.php:3592
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Đang cập nhật plugin %1$s (%2$d/%3$d)"
+
+#: framework/admin/framework-tgm.php:3595
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Có lỗi trong khi cài đặt %1$s: <strong>%2$s</strong>."
+
+#: framework/admin/framework-tgm.php:3597
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Việc cài đặt %1$s thất bại."
+
+#: framework/admin/framework-tgm.php:3601
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Việc cài đặt và kích hoạt đang được xử lí. Quá trình này có thể mất một thời "
+"gian đối với một số máy chủ, vì vậy hãy kiên nhẫn."
+
+#: framework/admin/framework-tgm.php:3603
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s được cài đặt và kích hoạt thành công."
+
+#: framework/admin/framework-tgm.php:3603
+#: framework/admin/framework-tgm.php:3611
+msgid "Show Details"
+msgstr "Hiển thị chi tiết"
+
+#: framework/admin/framework-tgm.php:3603
+#: framework/admin/framework-tgm.php:3611
+msgid "Hide Details"
+msgstr "Ẩn chi tiết"
+
+#: framework/admin/framework-tgm.php:3604
+msgid "All installations and activations have been completed."
+msgstr "Tất cả các cài đặt và kích hoạt đã được hoàn thành."
+
+#: framework/admin/framework-tgm.php:3606
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Đang cài đặt và kích hoạt plugin %1$s (%2$d/%3$d)"
+
+#: framework/admin/framework-tgm.php:3609
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Việc cài đặt đang bắt đầu. Quá trình này có thể mất một thời gian đối với "
+"một số máy chủ, vì vậy hãy kiên nhẫn."
+
+#: framework/admin/framework-tgm.php:3611
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s được cài đặt thành công."
+
+#: framework/admin/framework-tgm.php:3612
+msgid "All installations have been completed."
+msgstr "Tất cả các cài đặt đã được hoàn thành."
+
+#: framework/admin/framework-tgm.php:3614
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Đang cài đặt plugin %1$s (%2$d/%3$d)"
+
+#: framework/admin/wordpress-importer/parsers.php:36
+#: framework/admin/wordpress-importer/parsers.php:71
+#: framework/admin/wordpress-importer/parsers.php:79
+msgid "There was an error when reading this WXR file"
+msgstr "Đã xảy ra lỗi khi đọc tệp WXR này"
+
+#: framework/admin/wordpress-importer/parsers.php:37
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Chi tiết được hiển thị ở trên. Trình nhập khẩu bây giờ sẽ thử lại với một bộ "
+"phân tích cú pháp khác..."
+
+#: framework/admin/wordpress-importer/parsers.php:83
+#: framework/admin/wordpress-importer/parsers.php:88
+#: framework/admin/wordpress-importer/parsers.php:279
+#: framework/admin/wordpress-importer/parsers.php:471
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Đây không phải là tệp WXR, số phiên bản WXR không hợp lệ hoặc thiếu sót"
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:122
+#: framework/admin/wordpress-importer/wordpress-importer.php:131
+#: framework/admin/wordpress-importer/wordpress-importer.php:182
+#: framework/admin/wordpress-importer/wordpress-importer.php:186
+#: framework/admin/wordpress-importer/wordpress-importer.php:195
+msgid "Sorry, there has been an error."
+msgstr "Rất tiếc, đã có lỗi."
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:123
+msgid "The file does not exist, please try again."
+msgstr "Tập tin không tồn tại, xin vui lòng thử lại."
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:166
+msgid "All done."
+msgstr "Hoàn tất."
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:166
+msgid "Have fun!"
+msgstr "Chúc vui vẻ!"
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:167
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Hãy nhớ cập nhật mật khẩu và vai trò của người dùng được nhập."
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:187
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Không thể tìm thấy tập tin xuất khẩu tại <code>%s </code>. Có khả năng đây "
+"là do vấn đề quyền hạn."
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:203
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Tệp WXR này (phiên bản %s) có thể không được hỗ trợ bởi phiên bản này của "
+"trình nhập khẩu. Hãy cân nhắc việc cập nhật."
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:228
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Không thể nhập tác giả %s. Bài viết của họ sẽ được gán cho người dùng hiện "
+"tại."
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:254
+msgid "Assign Authors"
+msgstr "Gán tác giả"
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:255
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Để giúp bạn chỉnh sửa và lưu lại nội dung nhập khẩu dễ dàng hơn, bạn có thể "
+"chỉ định lại tác giả của mục đã nhập cho một người dùng hiện tại của trang "
+"này. Ví dụ: bạn có thể muốn nhập tất cả các mục vào như các mục của "
+"<code>admin</code>."
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:257
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Nếu người dùng mới được tạo ra bởi WordPress, một mật khẩu mới sẽ được tạo "
+"ngẫu nhiên và vai trò của người dùng mới sẽ được đặt là %s. Cần phải thay "
+"đổi thủ công các chi tiết của người dùng mới."
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:267
+msgid "Import Attachments"
+msgstr "Nhập tệp đính kèm"
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:270
+msgid "Download and import file attachments"
+msgstr "Tải về và nhập vào file đính kèm"
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:287
+msgid "Import author:"
+msgstr "Nhập tác giả:"
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:298
+msgid "or create new user with login name:"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:301
+msgid "as a new user:"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:309
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:311
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:312
+msgid "- Select -"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:362
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:413
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:461
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:507
+#: framework/admin/wordpress-importer/wordpress-importer.php:648
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:533
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:555
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:614
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:788
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:795
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:880
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:893
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:937
+msgid "Remote server did not respond"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:943
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:950
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:955
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:961
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:1060
+msgid "Import WordPress"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:1067
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:1082
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:1083
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:1156
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: framework/functions/functions-theme.php:171
+msgid "Block 11"
+msgstr ""
