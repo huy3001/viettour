@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: woohoo\n"
 "POT-Creation-Date: 2017-09-11 14:22+0700\n"
-"PO-Revision-Date: 2017-09-11 18:19+0700\n"
+"PO-Revision-Date: 2017-09-11 20:56+0700\n"
 "Language-Team: Bdaia <info@info.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1074,23 +1074,23 @@ msgstr "Nhập tác giả:"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:298
 msgid "or create new user with login name:"
-msgstr ""
+msgstr "hoặc tạo người dùng mới với tên đăng nhập:"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:301
 msgid "as a new user:"
-msgstr ""
+msgstr "như một người dùng mới:"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:309
 msgid "assign posts to an existing user:"
-msgstr ""
+msgstr "gán bài viết cho người dùng đang tồn tại:"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:311
 msgid "or assign posts to an existing user:"
-msgstr ""
+msgstr "hoặc gán bài viết cho người dùng đang tồn tại:"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:312
 msgid "- Select -"
-msgstr ""
+msgstr "- Lựa chọn -"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:362
 #, php-format
@@ -1098,80 +1098,82 @@ msgid ""
 "Failed to create new user for %s. Their posts will be attributed to the "
 "current user."
 msgstr ""
+"Không thể tạo người dùng mới cho %s. Bài viết của họ sẽ được gán cho người "
+"dùng hiện tại."
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:413
 #, php-format
 msgid "Failed to import category %s"
-msgstr ""
+msgstr "Không thể nhập danh mục %s"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:461
 #, php-format
 msgid "Failed to import post tag %s"
-msgstr ""
+msgstr "Không thể nhập từ khóa bài viết %s"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:507
 #: framework/admin/wordpress-importer/wordpress-importer.php:648
 #, php-format
 msgid "Failed to import %s %s"
-msgstr ""
+msgstr "Không thể nhập %s %s"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:533
 #, php-format
 msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
-msgstr ""
+msgstr "Không thể nhập \"%s\": Loại bài viết không hợp lệ %s"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:555
 #, php-format
 msgid "%s &#8220;%s&#8221; already exists."
-msgstr ""
+msgstr "%s \"%s\" đã tồn tại."
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:614
 #, php-format
 msgid "Failed to import %s &#8220;%s&#8221;"
-msgstr ""
+msgstr "Không thể nhập %s &#8220;%s&#8221;"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:788
 msgid "Menu item skipped due to missing menu slug"
-msgstr ""
+msgstr "Mục menu đã bị bỏ qua do thiếu menu slug"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:795
 #, php-format
 msgid "Menu item skipped due to invalid menu slug: %s"
-msgstr ""
+msgstr "Mục menu được bỏ qua do menu slug không hợp lệ: %s"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:880
 msgid "Fetching attachments is not enabled"
-msgstr ""
+msgstr "Tìm nạp tệp đính kèm chưa được bật"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:893
 msgid "Invalid file type"
-msgstr ""
+msgstr "Loại tệp không hợp lệ"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:937
 msgid "Remote server did not respond"
-msgstr ""
+msgstr "Máy chủ từ xa đã không trả lời"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:943
 #, php-format
 msgid "Remote server returned error response %1$d %2$s"
-msgstr ""
+msgstr "Máy chủ từ xa đã trả lời phản hồi lỗi %1$d %2$s"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:950
 msgid "Remote file is incorrect size"
-msgstr ""
+msgstr "Tệp từ xa kích thước không chính xác"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:955
 msgid "Zero size file downloaded"
-msgstr ""
+msgstr "Đã tải tệp kích thước bằng không"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:961
 #, php-format
 msgid "Remote file is too large, limit is %s"
-msgstr ""
+msgstr "Tệp từ xa quá lớn, giới hạn là %s"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:1060
 msgid "Import WordPress"
-msgstr ""
+msgstr "Nhập khẩu WordPress"
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:1067
 #, php-format
@@ -1179,6 +1181,8 @@ msgid ""
 "A new version of this importer is available. Please update to version %s to "
 "ensure compatibility with newer export files."
 msgstr ""
+"Một phiên bản mới của trình nhập khẩu này có sẵn. Vui lòng cập nhật lên "
+"phiên bản %s để đảm bảo tính tương thích với các tệp xuất mới hơn."
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:1082
 msgid ""
@@ -1186,17 +1190,22 @@ msgid ""
 "the posts, pages, comments, custom fields, categories, and tags into this "
 "site."
 msgstr ""
+"Làm thế nào! Tải lên tệp tin WordPress mở rộng RSS (WXR) và chúng tôi sẽ "
+"nhập các bài viết, trang, nhận xét, trường tùy chỉnh, danh mục và từ khóa "
+"vào trang web này."
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:1083
 msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
-msgstr ""
+msgstr "Chọn tệp WXR (.xml) để tải lên, sau đó nhấp Tải lên tệp và nhập."
 
 #: framework/admin/wordpress-importer/wordpress-importer.php:1156
 msgid ""
 "Import <strong>posts, pages, comments, custom fields, categories, and tags</"
 "strong> from a WordPress export file."
 msgstr ""
+"Nhập <strong>bài viết, trang, nhận xét, trường tùy chỉnh, danh mục và từ "
+"khóa</strong> từ một tệp xuất WordPress."
 
 #: framework/functions/functions-theme.php:171
 msgid "Block 11"
-msgstr ""
+msgstr "Khối 11"
