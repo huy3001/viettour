@@ -6,6 +6,8 @@ function wp_insert_admin_menu() {
 
 add_action('admin_enqueue_scripts', 'wp_insert_admin_enqueue_scripts');
 function wp_insert_admin_enqueue_scripts($page) {
+	wp_register_script('wp-insert-global-js', WP_INSERT_URL.'includes/assets/js/wp-insert-global.js', array('jquery'), WP_INSERT_VERSION);
+	wp_enqueue_script('wp-insert-global-js');
 	if($page == 'toplevel_page_wp-insert') {
 		wp_register_style('wp-insert-css', WP_INSERT_URL.'includes/assets/css/wp-insert.css', array(), WP_INSERT_VERSION);
 		wp_enqueue_style('wp-insert-css');
@@ -22,6 +24,7 @@ function wp_insert_admin_enqueue_scripts($page) {
 
 function wp_insert_admin_page() { ?>
     <div class="wrap wp-insert">
+		<h1></h1>
 		<div class="wp-list-table widefat plugin-install">
 			<div class="plugin-card">
 				<div class="plugin-card-top">
@@ -138,4 +141,31 @@ function wp_insert_admin_page() { ?>
 	</div>
 <?php
 }
+
+/* Begin Admin Notice */
+add_action('admin_notices', 'wp_insert_admin_notices');
+function wp_insert_admin_notices() {	
+	if(current_user_can('manage_options')) {
+		$userId = get_current_user_id();
+		if(!get_user_meta($userId, 'wp_insert_admin_notice_dismissed', true)) {
+			echo '<div class="notice wp_insert_notice is-dismissible" style="padding: 15px;">';
+				echo '<img style="float: left; margin-right: 20px;" src="'.WP_INSERT_URL.'includes/assets/images/wpinsert-vi.png" />';
+				echo '<p style="float: left; font-size: 14px; margin: 7px 0px;">Coming soon: The next update to <b>WP-INSERT</b> plugin will feature native video ad units for upto 10x higher revenue (RPM) powered by video intelligence.<br /><a href="https://www.vi.ai/publisher-video-monetization/" target="_blank">https://www.vi.ai/publisher-video-monetization/</a></p>';
+				echo '<a style="float: right; vertical-align: middle; height: 36px; font-size: 16px; padding: 0px 25px; line-height: 32px; margin: 12px 40px 0px 20px;" href="https://www.vi.ai/publisher-video-monetization/" class="button button-primary" target="_blank">Learn More</a>';
+				echo '<div class="clear"></div>';
+				echo '<input type="hidden" id="wp_insert_admin_notice_nonce" name="wp_insert_admin_notice_nonce" value="'.wp_create_nonce('wp-insert-admin-notice').'" />';
+				echo '<input type="hidden" id="wp_insert_admin_notice_ajax" name="wp_insert_admin_notice_ajax" value="'.admin_url('admin-ajax.php').'" />';
+			echo '</div>';
+		}
+	}
+}
+
+add_action('wp_ajax_wp_insert_admin_notice_dismiss', 'wp_insert_admin_notice_dismiss');
+function wp_insert_admin_notice_dismiss() {
+	check_ajax_referer('wp-insert-admin-notice', 'wp_insert_admin_notice_nonce');	
+	$userId = get_current_user_id();
+	update_user_meta($userId, 'wp_insert_admin_notice_dismissed', 'true');
+	die();
+}
+/* End Admin Notice */
 ?>

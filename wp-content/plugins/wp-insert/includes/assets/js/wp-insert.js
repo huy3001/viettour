@@ -89,7 +89,6 @@ jQuery(document).ready(function() {
 		jQuery("body").height() * 0.8,
 		function() { },
 		function() {
-			tinyMCE.triggerSave();
 			jQuery.post(
 				jQuery('#wp_insert_admin_ajax').val(), {
 					'action': 'wp_insert_legalpages_privacy_policy_form_save_action',
@@ -109,7 +108,6 @@ jQuery(document).ready(function() {
 		jQuery("body").height() * 0.8,
 		function() { },
 		function() {
-			tinyMCE.triggerSave();
 			jQuery.post(
 				jQuery('#wp_insert_admin_ajax').val(), {
 					'action': 'wp_insert_legalpages_terms_conditions_form_save_action',
@@ -129,7 +127,6 @@ jQuery(document).ready(function() {
 		jQuery("body").height() * 0.8,
 		function() { },
 		function() {
-			tinyMCE.triggerSave();
 			jQuery.post(
 				jQuery('#wp_insert_admin_ajax').val(), {
 					'action': 'wp_insert_legalpages_disclaimer_form_save_action',
@@ -149,7 +146,6 @@ jQuery(document).ready(function() {
 		jQuery("body").height() * 0.8,
 		function() { },
 		function() {
-			tinyMCE.triggerSave();
 			jQuery.post(
 				jQuery('#wp_insert_admin_ajax').val(), {
 					'action': 'wp_insert_legalpages_copyright_form_save_action',

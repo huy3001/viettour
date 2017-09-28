@@ -4,14 +4,14 @@ Tags: ads,adsense,ad manager,advertisement,google ads,ad widget,analytics,google
 Donate link: http://wpinsert.smartlogix.co.in/support/
 Requires at least: 4.1.0
 Tested up to: 4.8.1
-Stable tag: 2.1.7
+Stable tag: 2.1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 The Ultimate Adsense / Ad-Management Plugin for Wordpress
 
 == Description ==
-**WP-INSERT by <a href="http://www.smartlogix.co.in/" title="SmartLogix Technologies : Experts in WordPress Themes and Plugins">SmartLogix</a> : The Ultimate WordPress Plugin (Optimized for Adsense)**
+**WP-INSERT by <a href="http://www.smartlogix.co.in/" title="SmartLogix Technologies : Experts in WordPress Themes and Plugins">SmartLogix</a> : The Ultimate Adsense / Ad-Management Plugin for Wordpress (Optimized for Adsense)**
 
 Wp-Insert is the most powerful yet easiest to use wordpress ad management plugin which does a lot more than ad management.
 

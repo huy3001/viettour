@@ -31,7 +31,7 @@ function wp_insert_trackingcodes_google_analytics_form_save_action() {
 add_action('wp_footer', 'wp_insert_trackingcodes_google_analytics_wp_footer');
 function wp_insert_trackingcodes_google_analytics_wp_footer() {
 	$trackingCodes = get_option('wp_insert_trackingcodes');
-	if(isset($trackingCodes['analytics']['status']) && isset($trackingCodes['analytics']['code']) && !empty($trackingCodes['analytics']['code'])) {
+	if(isset($trackingCodes['analytics']['status']) && wp_validate_boolean($trackingCodes['analytics']['status']) && isset($trackingCodes['analytics']['code']) && !empty($trackingCodes['analytics']['code'])) {
 		echo '<script type="text/javascript">';
 			echo 'var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");';
 			echo 'document.write(unescape("%3Cscript src=\'" + gaJsHost + "google-analytics.com/ga.js\' type=\'text/javascript\'%3E%3C/script%3E"));';
@@ -77,7 +77,7 @@ function wp_insert_trackingcodes_header_form_save_action() {
 add_action('wp_head', 'wp_insert_trackingcodes_header_wp_head');
 function wp_insert_trackingcodes_header_wp_head() {
 	$trackingCodes = get_option('wp_insert_trackingcodes');
-	if(isset($trackingCodes['header']['status']) && isset($trackingCodes['header']['code']) && !empty($trackingCodes['header']['code'])) {
+	if(isset($trackingCodes['header']['status']) && wp_validate_boolean($trackingCodes['header']['status']) && isset($trackingCodes['header']['code']) && !empty($trackingCodes['header']['code'])) {
 		echo stripslashes($trackingCodes['header']['code']);
 	}
 }
@@ -115,7 +115,7 @@ function wp_insert_trackingcodes_footer_form_save_action() {
 add_action('wp_footer', 'wp_insert_trackingcodes_footer_wp_footer');
 function wp_insert_trackingcodes_footer_wp_footer() {
 	$trackingCodes = get_option('wp_insert_trackingcodes');
-	if(isset($trackingCodes['footer']['status']) && isset($trackingCodes['footer']['code']) && !empty($trackingCodes['footer']['code'])) {
+	if(isset($trackingCodes['footer']['status']) && wp_validate_boolean($trackingCodes['footer']['status']) && isset($trackingCodes['footer']['code']) && !empty($trackingCodes['footer']['code'])) {
 		echo stripslashes($trackingCodes['footer']['code']);
 	}
 }

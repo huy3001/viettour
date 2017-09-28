@@ -341,6 +341,14 @@ class smartlogixControls {
 				if($args['useParagraph']) { $HTML .= '</p>'; }
 				$JS .= 'jQuery("#'.(($args['id'] != '')?$args['id']:'').'").ipCheckbox();';
 				break;
+			case 'textarea-wysiwyg':
+				if($args['useParagraph']) { $HTML .= '<p>'; }
+				if($args['label'] != '') { $HTML .= '<label '.(($args['name'] != '')?'for="'.$args['name'].'"':'').'>'.$args['label'].'</label><br />'; }
+				$HTML .= '<textarea '.(($args['id'] != '')?'id="'.$args['id'].'"':'').' '.(($args['name'] != '')?'name="'.$args['name'].'"':'').' '.(($args['className'] != '')?'class="'.$args['className'].'"':'').' '.(($args['style'] != '')?'style="'.$args['style'].'"':'').' '.(($args['required'])?'required':'').'>'.stripslashes((($args['value'] != '')?$args['value']:'')).'</textarea>';
+				if($args['helpText'] != '') { $HTML .= '<small>'.$args['helpText'].'</small>'; }
+				if($args['useParagraph']) { $HTML .= '</p>'; }
+				$JS .= 'jQuery("#'.(($args['id'] != '')?$args['id']:'').'").jqte();';
+				break;
 			case 'checkbox-button':
 				if($args['useParagraph']) { $HTML .= '<p>'; }	
 				if(isset($args['value']) && (filter_var($args['value'], FILTER_VALIDATE_BOOLEAN))) {

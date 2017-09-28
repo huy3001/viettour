@@ -3,7 +3,7 @@
 Plugin Name: Wp-Insert
 Plugin URI: http://www.wp-insert.smartlogix.co.in/
 Description: WP-INSERT by SMARTLOGIX :  The Ultimate Adsense / Ad-Management Plugin for WordPress
-Version: 2.1.7
+Version: 2.1.8
 Author: Namith Jawahar
 Author URI: http://www.smartlogix.co.in/
 WP-INSERT by SMARTLOGIX :  The Ultimate Adsense / Ad-Management Plugin for WordPress
@@ -31,7 +31,7 @@ if(!defined('WP_INSERT_URL'))
 if(!defined('WP_INSERT_DIR'))
 	define('WP_INSERT_DIR', plugin_dir_path(__FILE__));
 if(!defined('WP_INSERT_VERSION'))
-	define('WP_INSERT_VERSION', '2.1.6');
+	define('WP_INSERT_VERSION', '2.1.8');
 /*Includes*/
 require_once(dirname(__FILE__).'/includes/common/common.php');
 require_once(dirname(__FILE__).'/includes/controls/controls.php');
