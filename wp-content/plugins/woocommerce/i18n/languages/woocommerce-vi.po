@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-10-13 18:06+0700\n"
+"PO-Revision-Date: 2017-10-16 15:52+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10742,7 +10742,7 @@ msgstr "Xác nhận bị lỗi: Số tiền PayPal không trùng khớp (số ti
 
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:302
 msgid "Order #%1$s has had a reversal cancelled. Please check the status of payment and update the order status accordingly here: %2$s"
-msgstr ""
+msgstr "Đơn hàng #%1$s đã bị hủy bỏ. Vui lòng kiểm tra trạng thái thanh toán và cập nhật trạng thái đơn hàng theo đây: %2$s"
 
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:301
 msgid "Reversal cancelled for order #%s"
@@ -10750,7 +10750,7 @@ msgstr "Yêu cầu hoàn tiền được hủy cho đơn hàng #%s"
 
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:290
 msgid "Order #%1$s has been marked on-hold due to a reversal - PayPal reason code: %2$s"
-msgstr ""
+msgstr "Đơn hàng #%1$s đã bị đánh dấu đang giữ do một sự đảo ngược - mã lý do PayPal: %2$s"
 
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:289
 msgid "Payment for order %s reversed"
@@ -10758,7 +10758,7 @@ msgstr "Thanh toán cho đơn hàng #%s đã được trả lại"
 
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:275
 msgid "Order #%1$s has been marked as refunded - PayPal reason code: %2$s"
-msgstr ""
+msgstr "Đơn đặt hàng #%1$s đã được đánh dấu là được hoàn tiền - Mã số lý do PayPal: %2$s"
 
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:218
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:271
@@ -10769,7 +10769,7 @@ msgstr "Thanh toán %s qua IPN."
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:198
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-pdt-handler.php:126
 msgid "Payment pending (%s)."
-msgstr ""
+msgstr "Đang xử lý thanh toán (%s)."
 
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:188
 msgid "IPN payment completed"
@@ -10789,7 +10789,7 @@ msgstr "Quá trình xác nhận bị lỗi: loại tiền tệ PayPal không tr�
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:309
 msgid "Refunded %1$s - Refund ID: %2$s"
-msgstr ""
+msgstr "Đã hoàn trả %1$s - ID hoàn tiền: %2$s"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:216
 msgid "PayPal does not support your store currency."
@@ -10797,7 +10797,7 @@ msgstr "Paypal không hỗ trợ loại tiền tệ này của cửa hàng bạn
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:216
 msgid "Gateway disabled"
-msgstr ""
+msgstr "Cổng thanh toán bị vô hiệu hóa"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:103
 msgid "What is PayPal?"
@@ -10805,11 +10805,11 @@ msgstr "Paypal là gì?"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:100
 msgid "PayPal acceptance mark"
-msgstr ""
+msgstr "Dấu hiệu chấp nhận PayPal"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:37
 msgid "PayPal Standard sends customers to PayPal to enter their payment information. PayPal IPN requires fsockopen/cURL support to update order statuses after payment. Check the <a href=\"%s\">system status</a> page for more details."
-msgstr ""
+msgstr "PayPal tiêu chuẩn sẽ gửi khách hàng đến PayPal để nhập thông tin thanh toán của họ. PayPal IPN yêu cầu fsockopen / hỗ trợ cURL để cập nhật trạng thái đơn đặt hàng sau khi thanh toán. Kiểm tra %stình trạng hệ thống%s để biết thêm chi tiết."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:36
 #: includes/gateways/paypal/includes/settings-paypal.php:21
@@ -10867,29 +10867,29 @@ msgstr "Vui lòng gửi chi phiếu của bạn đến Tên cửa hàng, Đườ
 
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:56
 msgid "Enable check payments"
-msgstr ""
+msgstr "Bật thanh toán bằng séc"
 
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:28
 msgid "Allows check payments. Why would you take checks in this day and age? Well you probably would not, but it does allow you to make test purchases for testing order emails and the success pages."
-msgstr ""
+msgstr "Cho phép thanh toán bằng séc. Tại sao bạn lại kiểm tra vào ngày và tuổi này? Vâng, bạn có thể sẽ không, nhưng nó cho phép bạn thực hiện mua thử nghiệm để kiểm tra các email đặt hàng và các trang đặt hàng thành công."
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:410
 msgid "Branch code"
-msgstr ""
+msgstr "Mã chi nhánh"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:405
 #: includes/gateways/class-wc-payment-gateway-echeck.php:40
 msgid "Routing number"
-msgstr ""
+msgstr "Số định tuyến"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:395
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:400
 msgid "Bank code"
-msgstr ""
+msgstr "Mã ngân hàng"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:390
 msgid "Branch sort"
-msgstr ""
+msgstr "Phân loại chi nhánh"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:385
 msgid "IFSC"
@@ -10913,7 +10913,7 @@ msgstr "BIC"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:329
 msgid "Our bank details"
-msgstr ""
+msgstr "Chi tiết ngân hàng của chúng tôi"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:159
 msgid "Remove selected account(s)"
@@ -10921,7 +10921,7 @@ msgstr "Xóa tài khoản được chọn()"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:159
 msgid "+ Add account"
-msgstr ""
+msgstr "+ Thêm tài khoản"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:134
 msgid "BIC / Swift"
@@ -10934,28 +10934,28 @@ msgstr "IBAN"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:131
 msgid "Bank name"
-msgstr ""
+msgstr "Tên ngân hàng"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:130
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:301
 #: includes/gateways/class-wc-payment-gateway-echeck.php:44
 msgid "Account number"
-msgstr ""
+msgstr "Số tài khoản"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:129
 msgid "Account name"
-msgstr ""
+msgstr "Tên tài khoản"
 
 #: includes/class-wc-query.php:114
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:123
 #: includes/wc-account-functions.php:101
 msgid "Account details"
-msgstr ""
+msgstr "Chi tiết tài khoản"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:119
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:277
 msgid "Sort code"
-msgstr ""
+msgstr "Mã sắp xếp"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:95
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:76
@@ -10970,7 +10970,7 @@ msgstr "Hướng dẫn"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:89
 msgid "Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account."
-msgstr ""
+msgstr "Thanh toán trực tiếp vào tài khoản ngân hàng của chúng tôi. Vui lòng sử dụng ID đơn đặt hàng của bạn làm tham chiếu thanh toán. Đơn đặt hàng của bạn sẽ không được vận chuyển cho đến khi số tiền đã thanh toán trong tài khoản của chúng tôi."
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:88
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:69
@@ -10980,7 +10980,7 @@ msgstr "Mô tả phương thức thanh toán mà khách hàng thấy trong phầ
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:82
 msgid "Direct bank transfer"
-msgstr ""
+msgstr "Chuyển khoản ngân hàng trực tiếp"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:81
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:62
@@ -11023,7 +11023,7 @@ msgstr "Tiêu đề"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:75
 msgid "Enable bank transfer"
-msgstr ""
+msgstr "Bật chuyển khoản qua ngân hàng"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:32
 msgid "Allows payments by BACS, more commonly known as direct bank/wire transfer."
@@ -11055,7 +11055,7 @@ msgstr "Sao chép tập tin tới giao diện"
 
 #: includes/emails/class-wc-email.php:852
 msgid "This template has been overridden by your theme and can be found in: %s."
-msgstr ""
+msgstr "Bản mẫu này đã được ghi đè bởi chủ đề của bạn và có thể được tìm thấy trong: %s."
 
 #: includes/emails/class-wc-email.php:849
 msgid "Delete template file"
@@ -11112,11 +11112,11 @@ msgstr "Đơn hàng mới"
 
 #: includes/emails/class-wc-email-customer-reset-password.php:81
 msgid "Password reset instructions"
-msgstr ""
+msgstr "Hướng dẫn đặt lại mật khẩu"
 
 #: includes/emails/class-wc-email-customer-reset-password.php:71
 msgid "Password reset for {site_title}"
-msgstr ""
+msgstr "Đặt lại mật khẩu cho {site_title}"
 
 #: includes/emails/class-wc-email-customer-reset-password.php:52
 msgid "Customer \"reset password\" emails are sent when customers reset their passwords."
@@ -11133,19 +11133,19 @@ msgstr "Tiêu đề email hoàn lại một phần tiền"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:242
 msgid "Full refund email heading"
-msgstr ""
+msgstr "Tiêu đề email hoàn trả đầy đủ"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:233
 msgid "Partial refund subject"
-msgstr ""
+msgstr "Chủ đề một phần hoàn trả"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:224
 msgid "Full refund subject"
-msgstr ""
+msgstr "Chủ đề hoàn trả đầy đủ"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:43
 msgid "Order refunded emails are sent to customers when their orders are refunded."
-msgstr ""
+msgstr "Email đặt hàng được hoàn lại sẽ được gửi đến khách hàng khi đơn đặt hàng của họ được hoàn lại."
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:42
 msgid "Refunded order"
@@ -11215,7 +11215,7 @@ msgstr "Tài khoản mới"
 
 #: includes/emails/class-wc-email-customer-invoice.php:198
 msgid "Email heading (paid)"
-msgstr ""
+msgstr "Tiêu đề email (đã trả phí)"
 
 #: includes/emails/class-wc-email-customer-invoice.php:66
 #: includes/emails/class-wc-email-customer-refunded-order.php:84
@@ -11285,7 +11285,7 @@ msgstr "Kiểu email"
 #: includes/emails/class-wc-email-new-order.php:159
 #: includes/emails/class-wc-email.php:580
 msgid "Email heading"
-msgstr ""
+msgstr "Tiêu đề email"
 
 #: includes/emails/class-wc-email-cancelled-order.php:146
 #: includes/emails/class-wc-email-customer-completed-order.php:135
@@ -11301,7 +11301,7 @@ msgstr "Tiêu đề"
 #: includes/emails/class-wc-email-failed-order.php:139
 #: includes/emails/class-wc-email-new-order.php:144
 msgid "Enter recipients (comma separated) for this email. Defaults to %s."
-msgstr ""
+msgstr "Nhập người nhận (dấu phẩy) cho email này. Mặc định thành %s."
 
 #: includes/admin/settings/class-wc-settings-emails.php:237
 #: includes/emails/class-wc-email-cancelled-order.php:137
@@ -11406,12 +11406,12 @@ msgstr "Đã hoàn thành"
 #: includes/class-wc-post-types.php:490
 msgid "On hold <span class=\"count\">(%s)</span>"
 msgid_plural "On hold <span class=\"count\">(%s)</span>"
-msgstr[0] ""
+msgstr[0] "Đang giữ <span class=\"count\">(%s)</span>"
 
 #: includes/class-wc-post-types.php:485 includes/wc-order-functions.php:99
 msgctxt "Order status"
 msgid "On hold"
-msgstr ""
+msgstr "Đang giữ"
 
 #: includes/class-wc-post-types.php:482
 msgid "Processing <span class=\"count\">(%s)</span>"
