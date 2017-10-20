@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-10-16 15:52+0700\n"
+"PO-Revision-Date: 2017-10-20 17:58+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11426,44 +11426,44 @@ msgstr "Đang xử lý"
 #: includes/class-wc-post-types.php:474
 msgid "Pending payment <span class=\"count\">(%s)</span>"
 msgid_plural "Pending payment <span class=\"count\">(%s)</span>"
-msgstr[0] ""
+msgstr[0] "Thanh toán đang chờ xử lý <span class=\"count\">(%s)</span>"
 
 #: includes/class-wc-post-types.php:469 includes/wc-order-functions.php:97
 msgctxt "Order status"
 msgid "Pending payment"
-msgstr ""
+msgstr "Thanh toán đang chờ xử lý"
 
 #: includes/class-wc-post-types.php:439
 msgid "Parent webhook"
-msgstr ""
+msgstr "Webhook gốc"
 
 #: includes/class-wc-post-types.php:438
 msgid "No webhooks found in trash"
-msgstr ""
+msgstr "Không có webhook nào trong thùng rác"
 
 #: includes/class-wc-post-types.php:437
 msgid "No webhooks found"
-msgstr ""
+msgstr "Không có webhook nào"
 
 #: includes/class-wc-post-types.php:435
 msgid "View webhook"
-msgstr ""
+msgstr "Xem webhook"
 
 #: includes/class-wc-post-types.php:434
 msgid "View webhooks"
-msgstr ""
+msgstr "Xem các webhooks"
 
 #: includes/class-wc-post-types.php:433
 msgid "New webhook"
-msgstr ""
+msgstr "Webhook mới"
 
 #: includes/class-wc-post-types.php:432
 msgid "Edit webhook"
-msgstr ""
+msgstr "Chỉnh sửa webhook"
 
 #: includes/class-wc-post-types.php:430
 msgid "Add new webhook"
-msgstr ""
+msgstr "Tạo một webhook mới"
 
 #: includes/class-wc-post-types.php:428
 msgctxt "Admin menu name"
@@ -11480,48 +11480,48 @@ msgstr "Đây là nơi bạn có thể thêm các phiếu ưu đãi mới để 
 
 #: includes/class-wc-post-types.php:398
 msgid "Parent coupon"
-msgstr ""
+msgstr "Phiếu giảm giá gốc"
 
 #: includes/class-wc-post-types.php:397
 msgid "No coupons found in trash"
-msgstr ""
+msgstr "Không tìm thấy phiếu giảm giá nào trong thùng rác"
 
 #: includes/class-wc-post-types.php:396
 msgid "No coupons found"
-msgstr "Không tìm thấy mã ưu đãi"
+msgstr "Không tìm thấy phiếu giảm giá"
 
 #: includes/class-wc-post-types.php:395
 msgid "Search coupons"
-msgstr ""
+msgstr "Tìm phiếu giảm giá"
 
 #: includes/class-wc-post-types.php:394
 msgid "View coupon"
-msgstr ""
+msgstr "Xem phiếu giảm giá"
 
 #: includes/class-wc-post-types.php:392
 msgid "New coupon"
-msgstr ""
+msgstr "Phiếu giảm giá mới"
 
 #: includes/class-wc-post-types.php:391
 msgid "Edit coupon"
-msgstr ""
+msgstr "Chỉnh sửa phiếu giảm giá"
 
 #: includes/class-wc-post-types.php:389
 msgid "Add new coupon"
-msgstr ""
+msgstr "Thêm phiếu giảm giá mới"
 
 #: includes/class-wc-post-types.php:388
 msgid "Add coupon"
-msgstr ""
+msgstr "Thêm phiếu giảm giá"
 
 #: includes/class-wc-post-types.php:387
 msgctxt "Admin menu name"
 msgid "Coupons"
-msgstr "Các ưu đãi"
+msgstr "Các phiếu giảm giá"
 
 #: includes/class-wc-post-types.php:386
 msgid "Coupon"
-msgstr "Phiếu ưu đãi"
+msgstr "Phiếu giảm giá"
 
 #: includes/class-wc-post-types.php:363
 msgid "Refunds"
@@ -11533,31 +11533,31 @@ msgstr "Đây là nơi lưu giữ các đơn hàng của cửa hàng."
 
 #: includes/class-wc-post-types.php:335
 msgid "Parent orders"
-msgstr ""
+msgstr "Đơn đặt hàng gốc"
 
 #: includes/class-wc-post-types.php:334
 msgid "No orders found in trash"
-msgstr ""
+msgstr "Không tìm thấy đơn đặt hàng nào trong thùng rác"
 
 #: includes/class-wc-post-types.php:333
 msgid "No orders found"
-msgstr ""
+msgstr "Không có đơn hàng nào được tìm thấy"
 
 #: includes/class-wc-post-types.php:332
 msgid "Search orders"
-msgstr ""
+msgstr "Tìm kiếm đơn đặt hàng"
 
 #: includes/class-wc-post-types.php:328
 msgid "Edit order"
-msgstr ""
+msgstr "Chỉnh sửa đơn đặt hàng"
 
 #: includes/class-wc-post-types.php:326
 msgid "Add new order"
-msgstr ""
+msgstr "Thêm đơn đặt hàng mới"
 
 #: includes/class-wc-post-types.php:325
 msgid "Add order"
-msgstr ""
+msgstr "Thêm đơn đặt hàng"
 
 #: includes/class-wc-post-types.php:287
 msgid "This is where you can add new products to your store."
@@ -11578,11 +11578,11 @@ msgstr "Thiết lập ảnh sản phẩm"
 #: includes/class-wc-post-types.php:277
 #: templates/emails/email-order-items.php:34
 msgid "Product image"
-msgstr ""
+msgstr "Hình ảnh sản phẩm"
 
 #: includes/class-wc-post-types.php:276
 msgid "Parent product"
-msgstr ""
+msgstr "Sản phẩm chính"
 
 #: includes/class-wc-post-types.php:275
 msgid "No products found in trash"
@@ -11590,27 +11590,27 @@ msgstr "Không có sản phẩm nào trong thùng rác"
 
 #: includes/class-wc-post-types.php:274
 msgid "No products found"
-msgstr ""
+msgstr "Không tìm thấy sản phẩm"
 
 #: includes/class-wc-post-types.php:273
 msgid "Search products"
-msgstr ""
+msgstr "Tìm kiếm sản phẩm"
 
 #: includes/class-wc-post-types.php:271 includes/class-wc-post-types.php:272
 msgid "View product"
-msgstr ""
+msgstr "Xem sản phẩm"
 
 #: includes/class-wc-post-types.php:270
 msgid "New product"
-msgstr ""
+msgstr "Sản phẩm mới"
 
 #: includes/class-wc-post-types.php:269
 msgid "Edit product"
-msgstr ""
+msgstr "Chỉnh sửa sản phẩm"
 
 #: includes/class-wc-post-types.php:267
 msgid "Add new product"
-msgstr ""
+msgstr "Thêm sản phẩm mới"
 
 #: includes/class-wc-post-types.php:265
 msgctxt "Admin menu name"
@@ -11623,7 +11623,7 @@ msgstr "%s mới"
 
 #: includes/class-wc-post-types.php:204
 msgid "Add new %s"
-msgstr ""
+msgstr "Thêm mới %s"
 
 #: includes/class-wc-post-types.php:203
 msgid "Update %s"
@@ -11651,40 +11651,40 @@ msgstr "Tìm %s"
 
 #: includes/class-wc-post-types.php:166
 msgid "New shipping class Name"
-msgstr ""
+msgstr "Tên lớp vận chuyển mới"
 
 #: includes/class-wc-post-types.php:165
 msgid "Add new shipping class"
-msgstr ""
+msgstr "Thêm lớp vận chuyển mới"
 
 #: includes/class-wc-post-types.php:164
 msgid "Update shipping class"
-msgstr ""
+msgstr "Cập nhật lớp vận chuyển"
 
 #: includes/class-wc-post-types.php:163
 msgid "Edit shipping class"
-msgstr ""
+msgstr "Chỉnh sửa lớp vận chuyển"
 
 #: includes/class-wc-post-types.php:162
 msgid "Parent shipping class:"
-msgstr ""
+msgstr "Lớp vận chuyển gốc:"
 
 #: includes/class-wc-post-types.php:161
 msgid "Parent shipping class"
-msgstr ""
+msgstr "Lớp vận chuyển gốc"
 
 #: includes/class-wc-post-types.php:160
 msgid "All shipping classes"
-msgstr ""
+msgstr "Tất cả các lớp vận chuyển"
 
 #: includes/class-wc-post-types.php:159
 msgid "Search shipping classes"
-msgstr ""
+msgstr "Tìm kiếm các lớp vận chuyển"
 
 #: includes/class-wc-post-types.php:158
 msgctxt "Admin menu name"
 msgid "Shipping classes"
-msgstr ""
+msgstr "Các lớp vận chuyển"
 
 #: includes/class-wc-post-types.php:121
 msgctxt "Admin menu name"
@@ -11695,7 +11695,7 @@ msgstr "Từ khóa"
 #: includes/class-wc-post-types.php:117 includes/class-wc-post-types.php:119
 #: includes/widgets/class-wc-widget-product-tag-cloud.php:29
 msgid "Product tags"
-msgstr ""
+msgstr "Từ khóa sản phẩm"
 
 #: includes/class-wc-post-types.php:85
 msgctxt "Admin menu name"
@@ -11704,27 +11704,27 @@ msgstr "Danh mục"
 
 #: includes/class-wc-install.php:909
 msgid "Premium support"
-msgstr ""
+msgstr "Hỗ trợ cao cấp"
 
 #: includes/class-wc-install.php:908
 msgid "API docs"
-msgstr ""
+msgstr "Tài liệu API"
 
 #: includes/class-wc-install.php:908
 msgid "View WooCommerce API docs"
-msgstr ""
+msgstr "Xem tài liệu API WooCommerce"
 
 #: includes/class-wc-install.php:907
 msgid "View WooCommerce documentation"
-msgstr ""
+msgstr "Xem tài liệu WooCommerce"
 
 #: includes/class-wc-install.php:891
 msgid "View WooCommerce settings"
-msgstr ""
+msgstr "Xem cài đặt WooCommerce"
 
 #: includes/class-wc-install.php:711
 msgid "Shop manager"
-msgstr ""
+msgstr "Quản lý cửa hàng"
 
 #: includes/class-wc-install.php:386
 msgctxt "Page slug"
@@ -11872,7 +11872,7 @@ msgstr "%s đơn vị của %s đã được đặt hàng trước tại đơn h
 
 #: includes/class-wc-emails.php:553
 msgid "Product backorder"
-msgstr ""
+msgstr "Sản phẩm gửi trả"
 
 #. translators: %s: product name
 #: includes/class-wc-emails.php:524
@@ -12096,7 +12096,7 @@ msgstr "Tỉnh / Thành phố"
 
 #: includes/class-wc-countries.php:598
 msgid "Company name"
-msgstr ""
+msgstr "Tên công ty."
 
 #: includes/class-wc-countries.php:400
 msgid "(ex. tax)"
@@ -12155,28 +12155,28 @@ msgstr "Bạn phải đồng ý với các Điều khoản &amp; Điều kiện.
 #. translators: 1: state field 2: valid states
 #: includes/class-wc-checkout.php:672
 msgid "%1$s is not valid. Please enter one of the following: %2$s"
-msgstr ""
+msgstr "%1$s không hợp lệ. Vui lòng nhập một trong các cách sau: %2$s"
 
 #. translators: %s: email address
 #: includes/class-wc-checkout.php:652 includes/class-wc-form-handler.php:132
 msgid "%s is not a valid email address."
-msgstr ""
+msgstr "%s không phải là địa chỉ email hợp lệ."
 
 #. translators: %s: phone number
 #: includes/class-wc-checkout.php:643 includes/class-wc-form-handler.php:125
 msgid "%s is not a valid phone number."
-msgstr ""
+msgstr "%s không phải là số điện thoại hợp lệ."
 
 #: includes/class-wc-checkout.php:634 includes/class-wc-form-handler.php:116
 #: includes/shortcodes/class-wc-shortcode-cart.php:32
 msgid "Please enter a valid postcode / ZIP."
-msgstr ""
+msgstr "Vui lòng nhập mã bưu điện / ZIP hợp lệ."
 
 #. translators: %s: field name
 #: includes/class-wc-checkout.php:679 includes/class-wc-form-handler.php:103
 #: includes/class-wc-form-handler.php:219
 msgid "%s is a required field."
-msgstr ""
+msgstr "%s là một trường bắt buộc."
 
 #: includes/class-wc-checkout.php:956
 msgid "Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return to shop</a>"
@@ -12188,7 +12188,7 @@ msgstr "Chúng tôi không thể xử lý đơn hàng của bạn, vui lòng th�
 
 #: includes/class-wc-checkout.php:203
 msgid "Notes about your order, e.g. special notes for delivery."
-msgstr ""
+msgstr "Ghi chú về đơn hàng của bạn, ví dụ: ghi chú đặc biệt để giao hàng."
 
 #: includes/class-wc-checkout.php:210
 msgid "Account username"
@@ -12196,12 +12196,12 @@ msgstr "Tên đăng nhập tài khoản"
 
 #: includes/class-wc-cart.php:1116
 msgid "You cannot add that amount to the cart &mdash; we have %1$s in stock and you already have %2$s in your cart."
-msgstr ""
+msgstr "Bạn không thể thêm số tiền đó vào giỏ hàng &mdash; chúng tôi đã có %1$s và bạn đã có %2$s trong giỏ hàng của bạn."
 
 #. translators: 1: product name 2: quantity in stock
 #: includes/class-wc-cart.php:1104
 msgid "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
-msgstr ""
+msgstr "Bạn không thể thêm số tiền đó vào &quot;%1$s&quot; vào giỏ hàng vì không có đủ hàng trong kho (%2$s còn lại)."
 
 #: includes/class-wc-cart.php:1099
 msgid "You cannot add &quot;%s&quot; to the cart because the product is out of stock."
@@ -12222,17 +12222,17 @@ msgstr "Lấy giỏ hàng không được gọi trước khi wp_loaded hoạt đ
 #. translators: 1: product name 2: minutes
 #: includes/class-wc-cart.php:791
 msgid "Sorry, we do not have enough \"%1$s\" in stock to fulfill your order right now. Please try again in %2$d minutes or edit your cart and try again. We apologize for any inconvenience caused."
-msgstr ""
+msgstr "Rất tiếc, chúng tôi không có đủ \"%1$s\" trong kho để hoàn thành đơn hàng của bạn ngay bây giờ. Vui lòng thử lại trong %2$d phút hoặc chỉnh sửa giỏ hàng của bạn và thử lại. Chúng tôi xin lỗi vì bất kỳ sự bất tiện gây ra."
 
 #. translators: 1: product name 2: quantity in stock
 #: includes/class-wc-cart.php:762
 msgid "Sorry, we do not have enough \"%1$s\" in stock to fulfill your order (%2$s in stock). Please edit your cart and try again. We apologize for any inconvenience caused."
-msgstr ""
+msgstr "Xin lỗi, chúng tôi không có đủ \"%1$s\" trong kho để hoàn thành đơn hàng của bạn (%2$s trong kho). Vui lòng chỉnh sửa giỏ hàng của bạn và thử lại. Chúng tôi xin lỗi vì bất kỳ sự bất tiện gây ra."
 
 #. translators: %s: product name
 #: includes/class-wc-cart.php:749
 msgid "Sorry, \"%s\" is not in stock. Please edit your cart and try again. We apologize for any inconvenience caused."
-msgstr ""
+msgstr "Rất tiếc, \"%s\" không có trong kho. Vui lòng chỉnh sửa giỏ hàng của bạn và thử lại. Chúng tôi xin lỗi vì bất kỳ sự bất tiện gây ra."
 
 #: includes/class-wc-cart.php:723
 msgid "An item which is no longer available was removed from your cart."
@@ -12269,11 +12269,11 @@ msgstr "Lỗi 404"
 
 #: includes/class-wc-auth.php:383
 msgid "Access denied"
-msgstr ""
+msgstr "Truy cập đã bị từ chối"
 
 #: includes/class-wc-auth.php:377
 msgid "You do not have permission to access this page"
-msgstr ""
+msgstr "Bạn không có quyền truy cập vào trang này"
 
 #: includes/class-wc-auth.php:366
 msgid "Invalid nonce verification"
