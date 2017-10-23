@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-10-20 17:58+0700\n"
+"PO-Revision-Date: 2017-10-23 18:10+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12384,7 +12384,7 @@ msgstr "Không có sản phẩm nào bị tăng trữ lượng - có thể là d
 
 #: includes/wc-order-functions.php:661
 msgid "Item #%1$s stock increased from %2$s to %3$s."
-msgstr ""
+msgstr "Sản phẩm #%1$s trong kho tăng từ %2$s đến %3$s."
 
 #: includes/class-wc-ajax.php:1075
 msgid "No products had their stock reduced - they may not have stock management enabled."
@@ -12409,22 +12409,22 @@ msgstr "Mã SKU sản phẩm không hợp lệ"
 #: includes/api/legacy/v1/class-wc-api-authentication.php:108
 #: includes/api/legacy/v2/class-wc-api-authentication.php:108
 msgid "Consumer secret is missing."
-msgstr ""
+msgstr "Bảo mật của người tiêu dùng bị thiếu."
 
 #: includes/api/legacy/v1/class-wc-api-authentication.php:92
 #: includes/api/legacy/v2/class-wc-api-authentication.php:92
 msgid "Consumer key is missing."
-msgstr ""
+msgstr "Khóa người dùng bị thiếu."
 
 #: includes/api/legacy/v2/class-wc-api-webhooks.php:461
 #: includes/api/legacy/v3/class-wc-api-webhooks.php:464
 msgid "Invalid webhook delivery."
-msgstr ""
+msgstr "Phân phối webhook không hợp lệ."
 
 #: includes/api/legacy/v2/class-wc-api-webhooks.php:453
 #: includes/api/legacy/v3/class-wc-api-webhooks.php:456
 msgid "Invalid webhook delivery ID."
-msgstr ""
+msgstr "ID phân phối webhook không hợp lệ."
 
 #: includes/api/legacy/v2/class-wc-api-webhooks.php:212
 #: includes/api/legacy/v3/class-wc-api-webhooks.php:212
@@ -12441,7 +12441,7 @@ msgstr "Liên kết phân phối webhook phải là liên kết hợp lệ bắt
 #: includes/api/legacy/v2/class-wc-api-webhooks.php:183
 #: includes/api/legacy/v3/class-wc-api-webhooks.php:183
 msgid "You do not have permission to create webhooks."
-msgstr ""
+msgstr "Bạn không đủ quyền tạo webhook."
 
 #: includes/api/legacy/v2/class-wc-api-webhooks.php:148
 #: includes/api/legacy/v3/class-wc-api-webhooks.php:148
@@ -12528,7 +12528,7 @@ msgstr "%s không hợp lệ"
 #: includes/api/legacy/v2/class-wc-api-resource.php:103
 #: includes/api/legacy/v3/class-wc-api-resource.php:105
 msgid "No %1$s found with the ID equal to %2$s"
-msgstr ""
+msgstr "No %1$s found with the ID equal to %2$s"
 
 #: includes/api/legacy/v1/class-wc-api-resource.php:74
 #: includes/api/legacy/v2/class-wc-api-resource.php:94
@@ -12674,17 +12674,17 @@ msgstr "Bạn không đủ quyền để xem tổng số sản phẩm"
 #: includes/api/legacy/v3/class-wc-api-orders.php:1739
 #: includes/api/legacy/v3/class-wc-api-orders.php:1800
 msgid "The order refund ID provided is not associated with the order."
-msgstr ""
+msgstr "ID hoàn lại tiền được cung cấp không liên quan đến đơn đặt hàng."
 
 #: includes/api/legacy/v2/class-wc-api-orders.php:1607
 #: includes/api/legacy/v3/class-wc-api-orders.php:1654
 msgid "Refund amount must be positive."
-msgstr ""
+msgstr "Số tiền hoàn trả phải là số dương."
 
 #: includes/api/legacy/v2/class-wc-api-orders.php:1605
 #: includes/api/legacy/v3/class-wc-api-orders.php:1652
 msgid "Refund amount is required."
-msgstr ""
+msgstr "Số tiền hoàn lại là bắt buộc."
 
 #: includes/api/legacy/v2/class-wc-api-orders.php:1592
 #: includes/api/legacy/v3/class-wc-api-orders.php:1639
@@ -12698,7 +12698,7 @@ msgstr "Bạn không đủ quyền để tạo đơn hoàn tiền"
 #: includes/api/legacy/v3/class-wc-api-orders.php:1734
 #: includes/api/legacy/v3/class-wc-api-orders.php:1795
 msgid "An order refund with the provided ID could not be found."
-msgstr ""
+msgstr "Bạn không thể tìm thấy đơn hàng hoàn lại tiền bằng ID được cung cấp."
 
 #: includes/api/legacy/v2/class-wc-api-orders.php:1457
 #: includes/api/legacy/v3/class-wc-api-orders.php:1504
@@ -12748,7 +12748,7 @@ msgstr "ID ghi chú đơn hàng không hợp lệ"
 #: includes/api/legacy/v2/class-wc-api-orders.php:1159
 #: includes/api/legacy/v3/class-wc-api-orders.php:1206
 msgid "Coupon discount total must be a positive amount."
-msgstr ""
+msgstr "Tổng chiết khấu phiếu giảm giá phải là một số tiền dương."
 
 #: includes/api/legacy/v2/class-wc-api-orders.php:1090
 #: includes/api/legacy/v3/class-wc-api-orders.php:1137
@@ -12782,7 +12782,7 @@ msgstr "ID đơn hàng không hợp lệ"
 #: includes/api/legacy/v3/class-wc-api-orders.php:492
 #: includes/api/legacy/v3/class-wc-api-orders.php:646
 msgid "Provided order currency is invalid."
-msgstr ""
+msgstr "Tiền tệ của đơn hàng được cung cấp không hợp lệ."
 
 #: includes/api/legacy/v2/class-wc-api-orders.php:434
 #: includes/api/legacy/v3/class-wc-api-orders.php:476
@@ -12864,7 +12864,7 @@ msgstr "Bạn không có quyền xem tổng số khách hàng"
 #: includes/api/legacy/v3/class-wc-api-customers.php:208
 #: includes/api/legacy/v3/class-wc-api-customers.php:211
 msgid "Invalid customer email"
-msgstr ""
+msgstr "Email khách hàng không hợp lệ"
 
 #: includes/api/legacy/v2/class-wc-api-coupons.php:521
 #: includes/api/legacy/v2/class-wc-api-customers.php:784
@@ -13009,14 +13009,14 @@ msgstr "%s tham số bị mất"
 #: includes/api/class-wc-rest-authentication.php:571
 #: includes/api/legacy/v3/class-wc-api-authentication.php:110
 msgid "WooCommerce API. Use a consumer key in the username field and a consumer secret in the password field."
-msgstr ""
+msgstr "WooCommerce API. Sử dụng khoá người dùng trong trường tên người dùng và mật mã của người tiêu dùng trong trường mật khẩu."
 
 #: includes/api/class-wc-rest-authentication.php:164
 #: includes/api/legacy/v1/class-wc-api-authentication.php:114
 #: includes/api/legacy/v2/class-wc-api-authentication.php:114
 #: includes/api/legacy/v3/class-wc-api-authentication.php:82
 msgid "Consumer secret is invalid."
-msgstr ""
+msgstr "Mật mã của người tiêu dùng không hợp lệ."
 
 #: includes/admin/views/html-report-by-date.php:37
 msgid "Custom:"
@@ -13036,23 +13036,23 @@ msgstr "Không, đừng nhắc tôi nữa"
 
 #: includes/admin/views/html-notice-theme-support.php:17
 msgid "Theme integration guide"
-msgstr ""
+msgstr "Hướng dẫn tích hợp chủ đề"
 
 #: includes/admin/views/html-notice-theme-support.php:16
 msgid "Read more about Storefront"
-msgstr ""
+msgstr "Tìm hiểu thêm về Storefront"
 
 #: includes/admin/views/html-notice-template-check.php:16
 msgid "Learn more about templates"
-msgstr ""
+msgstr "Tìm hiểu thêm về các mẫu"
 
 #: includes/admin/views/html-notice-template-check.php:15
 msgid "<strong>Your theme (%1$s) contains outdated copies of some WooCommerce template files.</strong> These files may need updating to ensure they are compatible with the current version of WooCommerce. You can see which files are affected from the <a href=\"%2$s\">system status page</a>. If in doubt, check with the author of the theme."
-msgstr ""
+msgstr "<strong> Chủ đề của bạn (%1$s) chứa các bản sao của một số tệp mẫu WooCommerce đã lỗi thời.</ strong> Các tệp này có thể cần cập nhật để đảm bảo chúng tương thích với phiên bản WooCommerce hiện tại. Bạn có thể xem tệp nào bị ảnh hưởng từ <a href=\"%2$s\"> trang trạng thái hệ thống </a>. Nếu nghi ngờ, hãy kiểm tra với tác giả của chủ đề."
 
 #: includes/admin/views/html-notice-install.php:13
 msgid "Skip setup"
-msgstr ""
+msgstr "Bỏ qua thiết lập"
 
 #: includes/admin/views/html-notice-install.php:13
 msgid "Run the Setup Wizard"
@@ -13067,7 +13067,7 @@ msgstr "<strong>Chào mừng tới WooCommerce</strong> &#8211; Bạn gần như
 #: includes/admin/views/html-bulk-edit-product.php:291
 #: includes/export/class-wc-product-csv-exporter.php:96
 msgid "Sold individually?"
-msgstr ""
+msgstr "Bán lẻ?"
 
 #: includes/admin/views/html-bulk-edit-product.php:274
 #: includes/admin/views/html-quick-edit-product.php:193
@@ -13127,7 +13127,7 @@ msgstr "Nhập giá khuyến mãi (%s)"
 
 #: includes/admin/views/html-bulk-edit-product.php:29
 msgid "Decrease existing price by (fixed amount or %):"
-msgstr ""
+msgstr "Giảm giá hiện tại theo (số tiền cố định hoặc %):"
 
 #: includes/admin/views/html-bulk-edit-product.php:45
 #: includes/admin/views/html-quick-edit-product.php:40
@@ -13183,7 +13183,7 @@ msgstr "Các mẫu giao diện"
 
 #: includes/admin/views/html-admin-page-status-report.php:671
 msgid "Not declared"
-msgstr ""
+msgstr "Không khai báo"
 
 #: includes/admin/views/html-admin-page-status-report.php:668
 msgid "Displays whether or not the current active theme declares WooCommerce support."
@@ -13191,7 +13191,7 @@ msgstr "Hiển thị giao diện hiện tại đang dùng có hỗ trợ WooComm
 
 #: includes/admin/views/html-admin-page-status-report.php:667
 msgid "WooCommerce support"
-msgstr ""
+msgstr "Hỗ trợ WooCommerce"
 
 #: includes/admin/views/html-admin-page-status-report.php:662
 msgid "The parent theme developers URL."
@@ -13219,7 +13219,7 @@ msgstr "Tên theme cha."
 
 #: includes/admin/views/html-admin-page-status-report.php:638
 msgid "If you are modifying WooCommerce on a parent theme that you did not build personally we recommend using a child theme. See: <a href=\"%s\" target=\"_blank\">How to create a child theme</a>"
-msgstr ""
+msgstr "Nếu bạn đang sửa đổi WooCommerce trên chủ đề gốc mà bạn không cá nhân hóa, chúng tôi khuyên bạn nên sử dụng chủ đề con. Xem: <a href=\"%s\" target=\"_blank\">Cách tạo chủ đề con</a>"
 
 #: includes/admin/views/html-admin-page-status-report.php:636
 msgid "Displays whether or not the current theme is a child theme."
@@ -13227,7 +13227,7 @@ msgstr "Hiển thị thông tin giao diện hiện tại là giao diện con hay
 
 #: includes/admin/views/html-admin-page-status-report.php:635
 msgid "Child theme"
-msgstr ""
+msgstr "Chủ đề con"
 
 #: includes/admin/views/html-admin-page-status-report.php:631
 msgid "The theme developers URL."
@@ -13268,7 +13268,7 @@ msgstr "Một danh sách các thuật ngữ nguyên tắc phân loại mà có t
 
 #: includes/admin/views/html-admin-page-status-report.php:591
 msgid "Page does not contain the shortcode."
-msgstr ""
+msgstr "Trang không chứa mã ngắn."
 
 #: includes/admin/views/html-admin-page-status-report.php:579
 msgid "Page not set"
@@ -13277,7 +13277,7 @@ msgstr "Trang chưa được đặt"
 #: includes/api/class-wc-rest-system-status-controller.php:953
 msgctxt "Page setting"
 msgid "My account"
-msgstr ""
+msgstr "Tài khoản"
 
 #: includes/api/class-wc-rest-system-status-controller.php:949
 msgctxt "Page setting"
@@ -13292,11 +13292,11 @@ msgstr "Giỏ hàng"
 #: includes/api/class-wc-rest-system-status-controller.php:941
 msgctxt "Page setting"
 msgid "Shop base"
-msgstr ""
+msgstr "Cơ sở kinh doanh"
 
 #: includes/admin/views/html-admin-page-status-report.php:559
 msgid "WC pages"
-msgstr ""
+msgstr "Trang WC"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:118
 msgid "API Version"
@@ -13308,7 +13308,7 @@ msgstr "Trang của bạn đã kích hoạt REST API chưa?"
 
 #: includes/admin/views/html-admin-page-status-report.php:498
 msgid "API enabled"
-msgstr ""
+msgstr "Bật API"
 
 #: includes/admin/views/html-admin-page-status-report.php:529
 msgid "The number of decimal points shown in displayed prices."
@@ -13356,7 +13356,7 @@ msgstr "Bảng không tồn tại"
 
 #: includes/admin/views/html-admin-page-status-report.php:316
 msgid "The version of WooCommerce that the database is formatted for. This should be the same as your WooCommerce version."
-msgstr ""
+msgstr "Phiên bản WooCommerce mà cơ sở dữ liệu được định dạng cho. Điều này sẽ giống như phiên bản WooCommerce của bạn."
 
 #: includes/api/class-wc-rest-system-status-controller.php:299
 msgid "WC database version."
@@ -13372,7 +13372,7 @@ msgstr "Các WooCommerce plugin có thể sử dụng phương pháp giao tiếp
 
 #: includes/admin/views/html-admin-page-status-report.php:274
 msgid "Remote get"
-msgstr ""
+msgstr "Lấy từ xa"
 
 #: includes/admin/views/html-admin-page-status-report.php:264
 msgid "PayPal uses this method of communicating when sending back transaction information."
@@ -13380,7 +13380,7 @@ msgstr "PayPal sử dụng phương pháp giao tiếp này khi gửi lại thôn
 
 #: includes/admin/views/html-admin-page-status-report.php:263
 msgid "Remote post"
-msgstr ""
+msgstr "Bài đăng từ xa"
 
 #: includes/admin/views/html-admin-page-status-report.php:242
 msgid "GZip (gzopen) is used to open the GEOIP database from MaxMind."
@@ -13416,7 +13416,7 @@ msgstr "Múi giờ mặc định cho máy chủ của bạn."
 
 #: includes/admin/views/html-admin-page-status-report.php:197
 msgid "Default timezone is UTC"
-msgstr ""
+msgstr "Múi giờ mặc định là UTC"
 
 #: includes/admin/views/html-admin-page-status-report.php:193
 msgid "The largest filesize that can be uploaded to your WordPress installation."
@@ -13440,7 +13440,7 @@ msgstr "Suhosin là một hệ thống bảo vệ tiên tiến cho việc cài �
 
 #: includes/admin/views/html-admin-page-status-report.php:166
 msgid "SUHOSIN installed"
-msgstr ""
+msgstr "SUHOSIN đã được cài đặt"
 
 #: includes/admin/views/html-admin-page-status-report.php:157
 msgid "The maximum number of variables your server can use for a single function to avoid overloads."
@@ -13448,7 +13448,7 @@ msgstr "Số lượng các biến thể tối đa mà máy chủ của bạn có
 
 #: includes/admin/views/html-admin-page-status-report.php:156
 msgid "PHP max input vars"
-msgstr ""
+msgstr "Biến đầu vào tối đa PHP"
 
 #: includes/admin/views/html-admin-page-status-report.php:152
 msgid "The amount of time (in seconds) that your site will spend on a single operation before timing out (to avoid server lockups)"
@@ -13456,7 +13456,7 @@ msgstr "Khoảng thời gian (tính bằng giây) mà trang web của bạn sẽ
 
 #: includes/admin/views/html-admin-page-status-report.php:151
 msgid "PHP time limit"
-msgstr ""
+msgstr "Giới hạn thời gian PHP"
 
 #: includes/admin/views/html-admin-page-status-report.php:147
 msgid "The largest filesize that can be contained in one post."
@@ -13464,7 +13464,7 @@ msgstr "Lưu lượng tập tin lớn nhất có thể chứa trong một lần 
 
 #: includes/admin/views/html-admin-page-status-report.php:146
 msgid "PHP post max size"
-msgstr ""
+msgstr "Kích thước tối đa bài viết PHP"
 
 #: includes/admin/views/html-admin-page-status-report.php:135
 msgid "The version of PHP installed on your hosting server."
@@ -13484,7 +13484,7 @@ msgstr "Thông tin máy chủ."
 
 #: includes/admin/views/html-admin-page-status-report.php:124
 msgid "Server environment"
-msgstr ""
+msgstr "Môi trường máy chủ"
 
 #: includes/admin/views/html-admin-page-status-report.php:116
 msgid "The current language used by WordPress. Default = English"
@@ -13500,7 +13500,7 @@ msgstr "Hiển thị WordPress đang trong Chế độ Sửa lỗi hay không."
 
 #: includes/admin/views/html-admin-page-status-report.php:93
 msgid "WP debug mode"
-msgstr ""
+msgstr "Chế độ gỡ lỗi WP"
 
 #: includes/admin/views/html-admin-page-status-report.php:83
 msgid "The maximum amount of memory (RAM) that your site can use at one time."
@@ -13508,7 +13508,7 @@ msgstr "Bộ nhớ tối đa (RAM) mà trang web của bạn có thể sử dụ
 
 #: includes/admin/views/html-admin-page-status-report.php:82
 msgid "WP memory limit"
-msgstr ""
+msgstr "Giới hạn bộ nhớ WP"
 
 #: includes/admin/views/html-admin-page-status-report.php:78
 msgid "Whether or not you have WordPress Multisite enabled."
@@ -13516,7 +13516,7 @@ msgstr "Có kích hoạt WordPress Multisite hay không."
 
 #: includes/admin/views/html-admin-page-status-report.php:77
 msgid "WP multisite"
-msgstr ""
+msgstr "WP multisite"
 
 #: includes/admin/views/html-admin-page-status-report.php:73
 msgid "The version of WordPress installed on your site."
@@ -13524,7 +13524,7 @@ msgstr "Phiên bản WordPress cài đặt trên trang của bạn."
 
 #: includes/admin/views/html-admin-page-status-report.php:72
 msgid "WP version"
-msgstr ""
+msgstr "Phiên bản WP"
 
 #: includes/admin/views/html-admin-page-status-report.php:62
 msgid "Several WooCommerce extensions can write logs which makes debugging problems easier. The directory must be writable for this to happen."
@@ -13532,7 +13532,7 @@ msgstr "Một số phần mở rộng của WooCommerce có thể ghi log để 
 
 #: includes/admin/views/html-admin-page-status-report.php:61
 msgid "Log directory writable"
-msgstr ""
+msgstr "Ghi lại thư mục ghi được"
 
 #: includes/admin/views/html-admin-page-status-report.php:57
 msgid "The version of WooCommerce installed on your site."
@@ -13540,7 +13540,7 @@ msgstr "Phiên bản của WooCommerce cài trên trang web của bạn."
 
 #: includes/admin/views/html-admin-page-status-report.php:56
 msgid "WC version"
-msgstr ""
+msgstr "Phiên bản WC"
 
 #: includes/admin/views/html-admin-page-status-report.php:52
 msgid "The root URL of your site."
@@ -13556,19 +13556,19 @@ msgstr "URL trang chủ"
 
 #: includes/admin/views/html-admin-page-status-report.php:41
 msgid "WordPress environment"
-msgstr ""
+msgstr "Môi trường WordPress"
 
 #: includes/admin/views/html-admin-page-status-report.php:34
 msgid "Copy for support"
-msgstr ""
+msgstr "Sao chép để hỗ trợ"
 
 #: includes/admin/views/html-admin-page-status-report.php:31
 msgid "Understanding the status report"
-msgstr ""
+msgstr "Hiểu báo cáo trạng thái"
 
 #: includes/admin/views/html-admin-page-status-report.php:30
 msgid "Get system report"
-msgstr ""
+msgstr "Nhận báo cáo hệ thống"
 
 #: includes/admin/views/html-admin-page-status-report.php:29
 msgid "Please copy and paste this information in your ticket when contacting support:"
@@ -13588,11 +13588,11 @@ msgstr "Tìm hiểu chi tiết"
 
 #: includes/admin/views/html-admin-page-addons.php:90
 msgid "Storefront is an intuitive, flexible and <strong>free</strong> WordPress theme offering deep integration with WooCommerce and many of the most popular customer-facing extensions."
-msgstr ""
+msgstr "Storefront là một chủ đề WordPress trực quan, linh hoạt và <strong>miễn phí</strong> cung cấp tích hợp sâu với WooCommerce và nhiều phần mở rộng đối tượng khách hàng phổ biến nhất."
 
 #: includes/admin/views/html-admin-page-addons.php:89
 msgid "We recommend Storefront, the <em>official</em> WooCommerce theme."
-msgstr ""
+msgstr "Chúng tôi khuyến khích Storefront, chủ đề WooCommerce <em>chính thức</em>."
 
 #: includes/admin/views/html-admin-page-addons.php:88
 msgid "Looking for a WooCommerce theme?"
@@ -13620,7 +13620,7 @@ msgstr "Là một tổng đơn"
 
 #: includes/admin/settings/views/settings-tax.php:101
 msgid "Display tax totals"
-msgstr ""
+msgstr "Hiển thị tổng số thuế"
 
 #: includes/admin/settings/views/settings-tax.php:97
 msgid "Define text to show after your product prices. This could be, for example, \"inc. Vat\" to explain your pricing. You can also have prices substituted here using one of the following: {price_including_tax}, {price_excluding_tax}."
@@ -13628,11 +13628,11 @@ msgstr "Xác định nội dung chữ hiển thị phía sau giá của sản ph
 
 #: includes/admin/settings/views/settings-tax.php:92
 msgid "Price display suffix"
-msgstr ""
+msgstr "Hậu tố hiển thị giá"
 
 #: includes/admin/settings/views/settings-tax.php:79
 msgid "Display prices during cart and checkout"
-msgstr ""
+msgstr "Hiển thị giá khi mua hàng và thanh toán"
 
 #: includes/admin/settings/views/settings-tax.php:74
 #: includes/admin/settings/views/settings-tax.php:86
@@ -13646,19 +13646,19 @@ msgstr "Bao gồm thuế"
 
 #: includes/admin/settings/views/settings-tax.php:67
 msgid "Display prices in the shop"
-msgstr ""
+msgstr "Hiển thị giá trong cửa hàng"
 
 #: includes/admin/settings/views/settings-tax.php:63
 msgid "Reduced rate%sZero rate"
-msgstr ""
+msgstr "Giảm tỷ lệ rate%sZero"
 
 #: includes/admin/settings/views/settings-tax.php:59
 msgid "List additional tax classes below (1 per line). This is in addition to the default \"Standard rate\"."
-msgstr ""
+msgstr "Liệt kê các lớp thuế bổ sung dưới đây (1 trên mỗi dòng). Đây là giá trị mặc định \"Tỷ lệ tiêu chuẩn\"."
 
 #: includes/admin/settings/views/settings-tax.php:58
 msgid "Additional tax classes"
-msgstr ""
+msgstr "Các lớp thuế bổ sung"
 
 #: includes/admin/settings/views/settings-tax.php:51
 msgid "Round tax at subtotal level, instead of rounding per line"
@@ -13678,7 +13678,7 @@ msgstr "Kiểm soát việc lấy loại hình thuế giao hàng nào, hoặc b�
 
 #: includes/admin/settings/views/settings-tax.php:38
 msgid "Shipping tax class"
-msgstr ""
+msgstr "Lớp thuế vận chuyển"
 
 #: includes/admin/class-wc-admin-profile.php:41
 #: includes/admin/settings/views/settings-tax.php:32
@@ -13696,7 +13696,7 @@ msgstr "Tùy chọn này sẽ xác định địa chỉ nào được sử dụn
 
 #: includes/admin/settings/views/settings-tax.php:24
 msgid "Calculate tax based on"
-msgstr ""
+msgstr "Tính thuế dựa trên"
 
 #: includes/admin/settings/views/settings-tax.php:19
 msgid "No, I will enter prices exclusive of tax"
@@ -13712,7 +13712,7 @@ msgstr "Đây là tùy chọn quan trọng vì nó sẽ ảnh hưởng đến c�
 
 #: includes/admin/settings/views/settings-tax.php:12
 msgid "Prices entered with tax"
-msgstr ""
+msgstr "Giá nhập với thuế"
 
 #: includes/admin/settings/class-wc-settings-general.php:180
 msgid "Enable taxes and tax calculations"
@@ -13720,15 +13720,15 @@ msgstr "Kích hoạt thuế và tính thuế"
 
 #: includes/admin/settings/class-wc-settings-general.php:179
 msgid "Enable taxes"
-msgstr ""
+msgstr "Kích hoạt tính thuế"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:183
 msgid "Webhook logs"
-msgstr ""
+msgstr "Nhật ký Webhook"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:171
 msgid "Save webhook"
-msgstr ""
+msgstr "Lưu webhook"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:160
 msgid "Updated at"
@@ -13741,7 +13741,7 @@ msgstr "Tạo ra tại"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:136
 msgid "Webhook actions"
-msgstr ""
+msgstr "Hành động Webhook"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:109
 msgid "Secret"
@@ -13753,19 +13753,19 @@ msgstr "Đường dẫn URL khi thông tin webhook được chuyển giao."
 
 #: includes/admin/settings/views/html-webhooks-edit.php:92
 msgid "Enter the custom topic that will trigger this webhook."
-msgstr ""
+msgstr "Nhập chủ đề tùy chỉnh sẽ kích hoạt webhook này."
 
 #: includes/admin/settings/views/html-webhooks-edit.php:91
 msgid "Custom topic"
-msgstr ""
+msgstr "Tuỳ chỉnh chủ đề"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:83
 msgid "Enter the action that will trigger this webhook."
-msgstr ""
+msgstr "Nhập hành động sẽ kích hoạt webhook này."
 
 #: includes/admin/settings/views/html-webhooks-edit.php:82
 msgid "Action event"
-msgstr ""
+msgstr "Sự kiện hành động"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:71
 msgid "Custom"
@@ -13777,51 +13777,51 @@ msgstr "Thao tác"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:68
 msgid "Product deleted"
-msgstr ""
+msgstr "Sản phẩm đã xóa"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:67
 msgid "Product updated"
-msgstr ""
+msgstr "Sản phẩm đã cập nhật"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:66
 msgid "Product created"
-msgstr ""
+msgstr "Sản phẩm đã được tạo"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:64
 msgid "Order deleted"
-msgstr ""
+msgstr "Đơn hang đã xóa"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:63
 msgid "Order updated"
-msgstr ""
+msgstr "Đơn hàng đã cập nhật"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:62
 msgid "Order created"
-msgstr ""
+msgstr "Đơn hàng đã tạo"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:61
 msgid "Customer deleted"
-msgstr ""
+msgstr "Khách hàng đã xóa"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:60
 msgid "Customer updated"
-msgstr ""
+msgstr "Khách hàng đã cập nhật"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:59
 msgid "Customer created"
-msgstr ""
+msgstr "Khách hàng đã tạo"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:57
 msgid "Coupon deleted"
-msgstr ""
+msgstr "Phiếu giảm giá đã xóa"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:56
 msgid "Coupon updated"
-msgstr ""
+msgstr "Phiếu giảm giá đã cập nhật"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:55
 msgid "Coupon created"
-msgstr ""
+msgstr "Phiếu giảm giá đã tạo"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:46
 msgid "Select when the webhook will fire."
@@ -13837,7 +13837,7 @@ msgstr "Tên thân thiện để xác định webhook, mặc định là Webhook
 
 #: includes/admin/settings/views/html-webhooks-edit.php:10
 msgid "Webhook data"
-msgstr ""
+msgstr "Dữ liệu Webhook"
 
 #: includes/admin/settings/views/html-webhook-logs.php:20
 #: includes/admin/settings/views/html-webhook-logs.php:28
@@ -13876,16 +13876,16 @@ msgstr "Phương thức"
 #: includes/admin/settings/class-wc-settings-tax.php:180
 #: includes/admin/settings/views/html-settings-tax.php:29
 msgid "Tax name"
-msgstr ""
+msgstr "Tên thuế"
 
 #: includes/admin/settings/class-wc-settings-tax.php:176
 #: includes/admin/settings/views/html-settings-tax.php:25
 msgid "State code"
-msgstr ""
+msgstr "Mã tiểu bang"
 
 #: includes/admin/settings/class-wc-settings-tax.php:175
 msgid "Country code"
-msgstr ""
+msgstr "Mã quốc gia"
 
 #: includes/admin/settings/class-wc-settings-tax.php:172
 msgid "No row(s) selected"
@@ -13964,7 +13964,7 @@ msgstr "Một mã quốc gia 2 chữ số, ví dụ US. Để trống để áp 
 
 #: includes/admin/settings/views/html-settings-tax.php:24
 msgid "Country&nbsp;code"
-msgstr ""
+msgstr "Quốc gia&nbsp;mã"
 
 #: includes/admin/settings/views/html-keys-edit.php:135
 msgid "QRCode"
@@ -13972,7 +13972,7 @@ msgstr "QRCode"
 
 #: includes/admin/settings/views/html-keys-edit.php:127
 msgid "Consumer secret"
-msgstr ""
+msgstr "Mật mã người tiêu dùng"
 
 #: includes/admin/class-wc-admin-profile.php:101
 #: includes/admin/settings/views/html-keys-edit.php:122
@@ -13988,16 +13988,16 @@ msgstr "Đã sao chép!"
 
 #: includes/admin/settings/views/html-keys-edit.php:119
 msgid "Consumer key"
-msgstr ""
+msgstr "Khóa người tiêu dùng"
 
 #: includes/admin/settings/views/html-keys-edit.php:106
 #: includes/class-wc-ajax.php:1714
 msgid "Revoke key"
-msgstr ""
+msgstr "Thu hồi khóa"
 
 #: includes/admin/settings/views/html-keys-edit.php:101
 msgid "Generate API key"
-msgstr ""
+msgstr "Tạo khóa API"
 
 #: includes/admin/settings/views/html-keys-edit.php:49
 msgid "Select the access type of these keys."
@@ -14013,20 +14013,20 @@ msgstr "Tên thân thiện để xác định mã này."
 
 #: includes/admin/settings/views/html-keys-edit.php:8
 msgid "Key details"
-msgstr ""
+msgstr "Chi tiết khóa"
 
 #: includes/admin/settings/class-wc-settings-tax.php:62
 msgid "%s rates"
-msgstr ""
+msgstr "%s giá"
 
 #: includes/admin/settings/class-wc-settings-tax.php:55
 msgid "Standard rates"
-msgstr ""
+msgstr "Giá tiêu chuẩn"
 
 #: includes/admin/settings/class-wc-settings-tax.php:54
 #: includes/admin/settings/views/settings-tax.php:9
 msgid "Tax options"
-msgstr ""
+msgstr "Tùy chọn thuế"
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:400
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:529
@@ -14036,7 +14036,7 @@ msgstr "ID"
 
 #: includes/admin/settings/views/html-admin-page-shipping-zones.php:18
 msgid "Shipping method(s)"
-msgstr ""
+msgstr "Phương thức vận chuyển (s)"
 
 #: includes/admin/settings/class-wc-settings-general.php:149
 msgid "Ship to specific countries only"
@@ -14060,7 +14060,7 @@ msgstr "Quản lý địa chỉ giao hàng được mặc định sử dụng."
 
 #: includes/admin/settings/class-wc-settings-shipping.php:106
 msgid "Shipping destination"
-msgstr ""
+msgstr "Đích vận chuyển"
 
 #: includes/admin/settings/class-wc-settings-shipping.php:97
 msgid "Hide shipping costs until an address is entered"
@@ -14076,11 +14076,11 @@ msgstr "Các tuỳ chọn giao hàng"
 
 #: includes/admin/settings/class-wc-settings-products.php:482
 msgid "Show \"verified owner\" label on customer reviews"
-msgstr ""
+msgstr "Hiển thị nhãn \"chủ nhân đã xác minh\" trên bài đánh giá của khách hàng"
 
 #: includes/admin/settings/class-wc-settings-products.php:502
 msgid "Product ratings"
-msgstr ""
+msgstr "Xếp hạng sản phẩm"
 
 #: includes/admin/settings/class-wc-settings-products.php:443
 msgid "This controls what unit you will define lengths in."
@@ -14096,7 +14096,7 @@ msgstr "Điều khiển đơn vị mà bạn xác định khối lượng."
 
 #: includes/admin/settings/class-wc-settings-products.php:425
 msgid "Weight unit"
-msgstr ""
+msgstr "Đơn vị trọng lượng"
 
 #: includes/admin/settings/class-wc-settings-products.php:419
 msgid "Measurements"
@@ -14120,7 +14120,7 @@ msgstr "Tải xuống yêu cầu đăng nhập"
 
 #: includes/admin/settings/class-wc-settings-products.php:389
 msgid "Access restriction"
-msgstr ""
+msgstr "Hạn chế truy cập"
 
 #: includes/admin/settings/class-wc-settings-products.php:383
 msgid "Redirect only"
@@ -14132,15 +14132,15 @@ msgstr "X-Accel-Redirect/X-Sendfile"
 
 #: includes/admin/settings/class-wc-settings-products.php:381
 msgid "Force downloads"
-msgstr ""
+msgstr "Tải xuống bắt buộc"
 
 #: includes/admin/settings/class-wc-settings-products.php:366
 msgid "File download method"
-msgstr ""
+msgstr "Phương pháp tải tệp tin"
 
 #: includes/admin/settings/class-wc-settings-products.php:335
 msgid "Stock display format"
-msgstr ""
+msgstr "Định dạng hiển thị hàng trong kho"
 
 #: includes/admin/settings/class-wc-settings-products.php:328
 msgid "Hide out of stock items from the catalog"
@@ -14148,19 +14148,19 @@ msgstr "Ẩn những sản phẩm đã hết hàng từ catalog"
 
 #: includes/admin/settings/class-wc-settings-products.php:327
 msgid "Out of stock visibility"
-msgstr ""
+msgstr "Tầm nhìn hết hàng"
 
 #: includes/admin/settings/class-wc-settings-products.php:312
 msgid "Out of stock threshold"
-msgstr ""
+msgstr "Ngưỡng hết hàng"
 
 #: includes/admin/settings/class-wc-settings-products.php:296
 msgid "Low stock threshold"
-msgstr ""
+msgstr "Ngưỡng kho hàng thấp"
 
 #: includes/admin/settings/class-wc-settings-products.php:284
 msgid "Notification recipient(s)"
-msgstr ""
+msgstr "Người nhận thông báo"
 
 #: includes/admin/settings/class-wc-settings-products.php:274
 msgid "Enable out of stock notifications"
@@ -14180,7 +14180,7 @@ msgstr "Thời gian giữ hàng (cho các đơn hàng chưa thanh toán) là x p
 
 #: includes/admin/settings/class-wc-settings-products.php:248
 msgid "Hold stock (minutes)"
-msgstr ""
+msgstr "Giữ hang trong kho (phút)"
 
 #: includes/admin/settings/class-wc-settings-products.php:241
 msgid "Enable stock management"
@@ -14188,23 +14188,23 @@ msgstr "Bật quản lý kho hàng"
 
 #: includes/admin/settings/class-wc-settings-products.php:240
 msgid "Manage stock"
-msgstr ""
+msgstr "Quản lý hàng trong kho"
 
 #: includes/admin/settings/class-wc-settings-products.php:210
 msgid "This size is usually used for the gallery of images on the product page. (W x H)"
-msgstr ""
+msgstr "Kích thước này thường được sử dụng cho bộ sưu tập hình ảnh trên trang sản phẩm. (W x H)"
 
 #: includes/admin/settings/class-wc-settings-products.php:209
 msgid "Product thumbnails"
-msgstr ""
+msgstr "Hình thu nhỏ của sản phẩm"
 
 #: includes/admin/settings/class-wc-settings-products.php:196
 msgid "This is the size used by the main image on the product page. (W x H)"
-msgstr ""
+msgstr "Đây là kích thước được sử dụng bởi hình ảnh chính trên trang sản phẩm. (W x H)"
 
 #: includes/admin/settings/class-wc-settings-products.php:195
 msgid "Single product image"
-msgstr ""
+msgstr "Hình ảnh sản phẩm đơn"
 
 #: includes/admin/settings/class-wc-settings-products.php:182
 msgid "This size is usually used in product listings. (W x H)"
