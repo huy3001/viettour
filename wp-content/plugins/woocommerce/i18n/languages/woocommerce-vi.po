@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-10-23 18:10+0700\n"
+"PO-Revision-Date: 2017-11-02 15:14+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14208,15 +14208,15 @@ msgstr "Hình ảnh sản phẩm đơn"
 
 #: includes/admin/settings/class-wc-settings-products.php:182
 msgid "This size is usually used in product listings. (W x H)"
-msgstr ""
+msgstr "Kích thước này thường được sử dụng trong danh sách sản phẩm. (W x H)"
 
 #: includes/admin/settings/class-wc-settings-products.php:181
 msgid "Catalog images"
-msgstr ""
+msgstr "Ảnh catalog"
 
 #: includes/admin/settings/class-wc-settings-products.php:176
 msgid "These settings affect the display and dimensions of images in your catalog - the display on the front-end will still be affected by CSS styles. After changing these settings you may need to <a target=\"_blank\" href=\"%s\">regenerate your thumbnails</a>."
-msgstr ""
+msgstr "Các cài đặt này ảnh hưởng đến hiển thị và kích thước của hình ảnh trong danh mục của bạn - màn hình hiển thị trên giao diện người dùng sẽ vẫn bị ảnh hưởng bởi các kiểu CSS. Sau khi thay đổi các cài đặt này, bạn có thể cần phải <a target=\"_blank\" href=\"%s\"> tạo lại các hình thu nhỏ của mình </a>."
 
 #: includes/admin/settings/class-wc-settings-products.php:161
 msgid "Enable AJAX add to cart buttons on archives"
@@ -14245,7 +14245,7 @@ msgstr "Sắp xếp theo gần đây nhất"
 #: includes/admin/settings/class-wc-settings-products.php:143
 #: includes/widgets/class-wc-widget-rating-filter.php:30
 msgid "Average rating"
-msgstr ""
+msgstr "Đánh giá trung bình"
 
 #: includes/admin/settings/class-wc-settings-products.php:142
 msgid "Popularity (sales)"
@@ -14261,7 +14261,7 @@ msgstr "Quản lý thứ tự sắp xếp mặc định của catalog."
 
 #: includes/admin/settings/class-wc-settings-products.php:133
 msgid "Default product sorting"
-msgstr ""
+msgstr "Kiểu sắp xếp sản phẩm mặc định"
 
 #: includes/admin/settings/class-wc-settings-products.php:126
 msgid "Show subcategories"
@@ -14273,7 +14273,7 @@ msgstr "Quản lý những gì được hiển thị trên lưu trữ danh mục
 
 #: includes/admin/settings/class-wc-settings-products.php:117
 msgid "Default category display"
-msgstr ""
+msgstr "Hiển thị danh mục mặc định"
 
 #: includes/admin/settings/class-wc-settings-products.php:109
 #: includes/admin/settings/class-wc-settings-products.php:125
@@ -14286,7 +14286,7 @@ msgstr "Điều này sẽ kiểm soát những gì được hiện ra trên lưu
 
 #: includes/admin/settings/class-wc-settings-products.php:101
 msgid "Shop page display"
-msgstr ""
+msgstr "Hiển thị trang cửa hàng"
 
 #: includes/admin/settings/class-wc-settings-products.php:97
 msgid "This sets the base page of your shop - this is where your product archive will be."
@@ -14298,7 +14298,7 @@ msgstr "Các trang cơ bản cũng có thể được sử dụng trong <a href=
 
 #: includes/admin/settings/class-wc-settings-products.php:90
 msgid "Shop page"
-msgstr ""
+msgstr "Trang cửa hàng"
 
 #: includes/admin/settings/class-wc-settings-products.php:41
 msgid "Display"
@@ -14343,7 +14343,7 @@ msgstr "Các tùy chọn sau đây ảnh hưởng tới giá bán sản phẩm h
 
 #: includes/admin/settings/class-wc-settings-general.php:206
 msgid "Currency options"
-msgstr ""
+msgstr "Tùy chọn tiền tệ"
 
 #: includes/admin/settings/class-wc-settings-general.php:198
 #: includes/wc-template-functions.php:525
@@ -14352,7 +14352,7 @@ msgstr "Đây là cửa hàng demo nhằm mục đích thử nghiệm &mdash; c�
 
 #: includes/admin/settings/class-wc-settings-general.php:195
 msgid "Store notice text"
-msgstr ""
+msgstr "Văn bản thông báo cửa hàng"
 
 #: includes/admin/settings/class-wc-settings-general.php:188
 msgid "Enable site-wide store notice text"
@@ -14360,7 +14360,7 @@ msgstr "Cho phép tính năng thông báo bằng văn bản trên toàn cửa h�
 
 #: includes/admin/settings/class-wc-settings-general.php:187
 msgid "Store notice"
-msgstr ""
+msgstr "Thông báo cửa hàng"
 
 #: includes/admin/settings/class-wc-settings-general.php:174
 msgid "Geolocate (with page caching support)"
@@ -14383,7 +14383,7 @@ msgstr "Các quốc gia cụ thể"
 
 #: includes/admin/settings/class-wc-settings-general.php:114
 msgid "Sell to all countries"
-msgstr ""
+msgstr "Bán cho tất cả các nước"
 
 #: includes/admin/settings/class-wc-settings-general.php:106
 msgid "This option lets you limit which countries you are willing to sell to."
@@ -14391,16 +14391,16 @@ msgstr "Tùy chọn này cho phép bạn giới hạn các nước mà bạn mu�
 
 #: includes/admin/settings/class-wc-settings-general.php:105
 msgid "Selling location(s)"
-msgstr ""
+msgstr "Vị trí bán hàng"
 
 #: includes/admin/settings/class-wc-settings-emails.php:130
 msgid "Background color"
-msgstr ""
+msgstr "Màu nền"
 
 #. translators: %s: site name
 #: includes/admin/settings/class-wc-settings-emails.php:118
 msgid "Base color"
-msgstr ""
+msgstr "Màu cơ bản"
 
 #: includes/admin/settings/class-wc-settings-emails.php:106
 msgid "The text to appear in the footer of WooCommerce emails."
@@ -14408,23 +14408,23 @@ msgstr "Văn bản hiển thị cuối email của WooCommerce"
 
 #: includes/admin/settings/class-wc-settings-emails.php:93
 msgid "Header image"
-msgstr ""
+msgstr "Hình ảnh tiêu đề"
 
 #: includes/admin/settings/class-wc-settings-emails.php:90
 msgid "Email template"
-msgstr ""
+msgstr "Mẫu email"
 
 #: includes/admin/settings/class-wc-settings-emails.php:64
 msgid "\"From\" name"
-msgstr ""
+msgstr "\"Từ\" tên"
 
 #: includes/admin/settings/class-wc-settings-emails.php:61
 msgid "Email sender options"
-msgstr ""
+msgstr "Tùy chọn người gửi email"
 
 #: includes/admin/settings/class-wc-settings-emails.php:40
 msgid "Email options"
-msgstr ""
+msgstr "Tùy chọn email"
 
 #: includes/admin/settings/class-wc-settings-emails.php:27
 msgid "Emails"
@@ -14440,7 +14440,7 @@ msgstr "Cổng thanh toán"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:283
 msgid "Gateway display order"
-msgstr ""
+msgstr "Thứ tự hiển thị cổng thanh toán"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:230
 msgid "Installed gateways are listed below. Drag and drop gateways to control their display order on the frontend."
@@ -14448,36 +14448,36 @@ msgstr "Cổng thanh toán đã cài đặt được hiển thị bên dưới. 
 
 #: includes/admin/settings/class-wc-settings-checkout.php:229
 msgid "Payment gateways"
-msgstr ""
+msgstr "Cổng thanh toán"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:198
 msgid "Endpoint for the \"Checkout &rarr; Add payment method\" page."
-msgstr ""
+msgstr "Điểm cuối cho trang \"Thanh toán &rarr; Thêm phương thức thanh toán\"."
 
 #: includes/admin/settings/class-wc-settings-checkout.php:197
 #: includes/class-wc-query.php:123
 #: templates/myaccount/form-add-payment-method.php:53
 #: templates/myaccount/payment-methods.php:79
 msgid "Add payment method"
-msgstr ""
+msgstr "Thêm phương thức thanh toán"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:189
 msgid "Endpoint for the \"Checkout &rarr; Order received\" page."
-msgstr ""
+msgstr "Điểm cuối cho trang \"Thanh toán &rarr; Đã nhận đơn đặt hàng\"."
 
 #: includes/admin/settings/class-wc-settings-checkout.php:188
 #: includes/class-wc-query.php:95
 msgid "Order received"
-msgstr ""
+msgstr "Đã nhận đơn đặt hàng"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:180
 msgid "Endpoint for the \"Checkout &rarr; Pay\" page."
-msgstr ""
+msgstr "Điểm cuối cho trang \"Thanh toán &rarr; Trả tiền\"."
 
 #: includes/admin/settings/class-wc-settings-checkout.php:179
 #: includes/wc-account-functions.php:259 templates/checkout/thankyou.php:33
 msgid "Pay"
-msgstr "Thanh toán"
+msgstr "Trả tiền"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:176
 msgid "Endpoints are appended to your page URLs to handle specific actions during the checkout process. They should be unique."
@@ -14485,7 +14485,7 @@ msgstr "Điểm cuối kết nối được gắn vào URL trang web của bạn
 
 #: includes/admin/settings/class-wc-settings-checkout.php:176
 msgid "Checkout endpoints"
-msgstr ""
+msgstr "Điểm cuối thanh toán"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:160
 msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
@@ -14493,15 +14493,15 @@ msgstr "Nếu bạn xác định một trang \"Điều khoản\" khách hàng kh
 
 #: includes/admin/settings/class-wc-settings-checkout.php:159
 msgid "Terms and conditions"
-msgstr ""
+msgstr "Quy định và Điều kiện"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:148
 msgid "Checkout page"
-msgstr ""
+msgstr "Trang Thanh toán"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:137
 msgid "Cart page"
-msgstr ""
+msgstr "Trang Giỏ hàng"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:131
 msgid "These pages need to be set so that WooCommerce knows where to send users to checkout."
@@ -14509,7 +14509,7 @@ msgstr "Những trang cần được thiết lập để WooCommerce gửi khác
 
 #: includes/admin/settings/class-wc-settings-checkout.php:130
 msgid "Checkout pages"
-msgstr ""
+msgstr "Các trang Thanh toán"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:116
 msgid "Force HTTP when leaving the checkout"
@@ -14550,7 +14550,7 @@ msgstr "Tiến trình thanh toán"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:40
 msgid "Checkout options"
-msgstr ""
+msgstr "Tuỳ chọn thanh toán"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:27
 msgctxt "Settings tab label"
@@ -14564,7 +14564,7 @@ msgstr "Cho phép RESR API"
 #: includes/admin/settings/class-wc-settings-api.php:62
 #: includes/admin/settings/class-wc-settings-general.php:102
 msgid "General options"
-msgstr ""
+msgstr "Các thiết lập chung"
 
 #: includes/admin/settings/class-wc-settings-api.php:27
 #: includes/admin/settings/class-wc-settings-api.php:69
@@ -14577,15 +14577,15 @@ msgstr "Tự động tạo mật khẩu khách hàng"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:88
 msgid "Automatically generate username from customer email."
-msgstr ""
+msgstr "Tự động tạo tên người dùng từ email của khách hàng."
 
 #: includes/admin/settings/class-wc-settings-accounts.php:87
 msgid "Account creation"
-msgstr ""
+msgstr "Tạo tài khoản"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:78
 msgid "Display returning customer login reminder on the \"Checkout\" page."
-msgstr ""
+msgstr "Hiển thị nhắc nhở đăng nhập của khách hàng trở lại trên trang \"Thanh toán\"."
 
 #: includes/admin/settings/class-wc-settings-accounts.php:174
 msgid "Endpoint for the triggering logout. You can add this to your menus via a custom link: yoursite.com/?customer-logout=true"
@@ -14599,43 +14599,43 @@ msgstr "Đăng xuất"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:165
 msgid "Endpoint for the \"My account &rarr; Lost password\" page."
-msgstr ""
+msgstr "Điểm cuối cho trang \"Tài khoản của tôi &rarr; Bạn quên mật khẩu\"."
 
 #: includes/admin/class-wc-admin-customize.php:79
 #: includes/admin/class-wc-admin-menus.php:275
 #: includes/admin/settings/class-wc-settings-accounts.php:164
 #: includes/class-wc-query.php:126
 msgid "Lost password"
-msgstr ""
+msgstr "Quên mật khẩu"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:147
 msgid "Endpoint for the \"My account &rarr; Addresses\" page."
-msgstr ""
+msgstr "Điểm cuối cho trang \"Tài khoản của tôi &rarr; Địa chỉ\"."
 
 #: includes/admin/settings/class-wc-settings-accounts.php:138
 msgid "Endpoint for the \"My account &rarr; Edit account\" page."
-msgstr ""
+msgstr "Điểm cuối cho trang \"Tài khoản của tôi &rarr; Chỉnh sửa tài khoản\"."
 
 #: includes/admin/settings/class-wc-settings-accounts.php:137
 msgid "Edit account"
-msgstr ""
+msgstr "Chỉnh sửa tài khoản"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:120
 msgid "Endpoint for the \"My account &rarr; View order\" page."
-msgstr ""
+msgstr "Điểm cuối cho trang \"Tài khoản của tôi &rarr; Xem đơn đặt hàng\"."
 
 #: includes/admin/settings/class-wc-settings-accounts.php:119
 #: includes/class-wc-post-types.php:330 includes/class-wc-post-types.php:331
 msgid "View order"
-msgstr ""
+msgstr "Xem đơn đặt hàng"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:107
 msgid "My account endpoints"
-msgstr ""
+msgstr "Điểm cuối tài khoản của tôi"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:43
 msgid "My account page"
-msgstr ""
+msgstr "Trang tài khoản của tôi"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:40
 msgid "These pages need to be set so that WooCommerce knows where to send users to access account related functionality."
@@ -14643,7 +14643,7 @@ msgstr "Những trang cần thiết lập để WooCommerce gửi người dùng
 
 #: includes/admin/settings/class-wc-settings-accounts.php:40
 msgid "Account pages"
-msgstr ""
+msgstr "Trang tài khoản"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:27
 msgid "Accounts"
@@ -14664,19 +14664,19 @@ msgstr "Thực thu"
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:187
 msgid "This is the sum of the 'Shipping total' field within your orders."
-msgstr ""
+msgstr "Đây là tổng của trường 'Tổng số vận chuyển' trong đơn hàng của bạn."
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:187
 msgid "Total shipping"
-msgstr ""
+msgstr "Tổng số vận chuyển"
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:186
 msgid "This is the sum of the 'Order total' field within your orders."
-msgstr ""
+msgstr "Đây là tổng của trường 'Tổng số đơn đặt hàng' trong đơn đặt hàng của bạn."
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:186
 msgid "Total sales"
-msgstr ""
+msgstr "Tổng doanh thu"
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:184
 msgid "Period"
