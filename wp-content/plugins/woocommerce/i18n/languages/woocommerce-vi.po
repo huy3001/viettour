@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-02 15:14+0700\n"
+"PO-Revision-Date: 2017-11-06 16:38+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14695,23 +14695,23 @@ msgstr "Đây là tổng số thuế cho tỷ lệ (thuế giao hàng + thuế s
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:153
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:188
 msgid "Total tax"
-msgstr ""
+msgstr "Tổng số thuế"
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:152
 msgid "This is the sum of the \"Tax rows\" shipping tax amount within your orders."
-msgstr ""
+msgstr "Đây là tổng số thuế vận chuyển \"Thuế hàng\" trong đơn đặt hàng của bạn."
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:152
 msgid "Shipping tax amount"
-msgstr ""
+msgstr "Tiền thuế giao hàng"
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:151
 msgid "This is the sum of the \"Tax rows\" tax amount within your orders."
-msgstr ""
+msgstr "Đây là tổng của số thuế \"Số tiền thuế\" trong đơn đặt hàng của bạn."
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:151
 msgid "Tax amount"
-msgstr ""
+msgstr "Số tiền thuế"
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:149
 msgid "Rate"
@@ -14738,11 +14738,11 @@ msgstr "Tiền doanh số"
 
 #: includes/admin/reports/class-wc-report-sales-by-product.php:306
 msgid "Top earners"
-msgstr ""
+msgstr "Người có thu nhập cao nhất"
 
 #: includes/admin/reports/class-wc-report-sales-by-product.php:258
 msgid "Top freebies"
-msgstr ""
+msgstr "Miễn phí hàng đầu"
 
 #: includes/admin/reports/class-wc-report-sales-by-product.php:253
 #: includes/admin/reports/class-wc-report-sales-by-product.php:301
@@ -14752,11 +14752,11 @@ msgstr "Không có sản phẩm được tìm thấy trong phạm vi này"
 
 #: includes/admin/reports/class-wc-report-sales-by-product.php:218
 msgid "Top sellers"
-msgstr ""
+msgstr "Bán chạy nhất"
 
 #: includes/admin/reports/class-wc-report-sales-by-product.php:202
 msgid "Product search"
-msgstr ""
+msgstr "Tìm kiếm sản phẩm"
 
 #: includes/admin/reports/class-wc-report-sales-by-product.php:194
 #: includes/api/class-wc-rest-system-status-tools-controller.php:188
@@ -14779,11 +14779,11 @@ msgstr "%s danh thu của các sản phẩm đã chọn"
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:734
 msgid "Net sales amount"
-msgstr ""
+msgstr "Số tiền bán hàng ròng"
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:724
 msgid "Gross sales amount"
-msgstr ""
+msgstr "Tổng doanh thu"
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:714
 msgid "Shipping amount"
@@ -14896,20 +14896,20 @@ msgstr "đơn hàng"
 #: includes/admin/reports/class-wc-report-customers.php:124
 #: includes/admin/reports/class-wc-report-customers.php:327
 msgid "Guest orders"
-msgstr ""
+msgstr "Đơn đặt hàng của khách"
 
 #: includes/admin/reports/class-wc-report-customers.php:119
 #: includes/admin/reports/class-wc-report-customers.php:317
 msgid "Customer orders"
-msgstr ""
+msgstr "Đơn đặt hàng của khách hàng"
 
 #: includes/admin/reports/class-wc-report-customers.php:110
 msgid "Guest sales"
-msgstr ""
+msgstr "Bán hàng cho khách"
 
 #: includes/api/class-wc-rest-customers-controller.php:180
 msgid "Customer role."
-msgstr ""
+msgstr "Vai trò của khách hàng."
 
 #. translators: %s: signups amount
 #: includes/admin/reports/class-wc-report-customers.php:41
@@ -14922,7 +14922,7 @@ msgstr "Đơn hàng cuối cùng"
 
 #: includes/admin/reports/class-wc-report-customer-list.php:211
 msgid "Money spent"
-msgstr ""
+msgstr "Tiền đã chi tiêu"
 
 #: includes/admin/reports/class-wc-report-customer-list.php:209
 msgid "Location"
@@ -14998,7 +14998,7 @@ msgstr "Xuất CSV"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:270
 msgid "Most discount"
-msgstr ""
+msgstr "Hầu hết giảm giá"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:265
 #: includes/admin/reports/class-wc-report-coupon-usage.php:312
@@ -15007,7 +15007,7 @@ msgstr "Không tìm thấy phiếu ưu đãi trong phạm vi này"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:223
 msgid "Most popular"
-msgstr ""
+msgstr "Phổ biến nhất"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:218
 msgid "No used coupons found"
@@ -15038,7 +15038,7 @@ msgstr "Lọc với phiếu giảm giá"
 #: includes/admin/reports/class-wc-report-sales-by-date.php:546
 #: includes/admin/reports/class-wc-report-sales-by-product.php:131
 msgid "Last 7 days"
-msgstr ""
+msgstr "7 ngày qua"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:132
 #: includes/admin/reports/class-wc-report-customers.php:165
@@ -15048,7 +15048,7 @@ msgstr ""
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:51
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:51
 msgid "This month"
-msgstr ""
+msgstr "Tháng này"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:131
 #: includes/admin/reports/class-wc-report-customers.php:164
@@ -15058,7 +15058,7 @@ msgstr ""
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:50
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:50
 msgid "Last month"
-msgstr ""
+msgstr "Tháng trước"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:130
 #: includes/admin/reports/class-wc-report-customers.php:163
@@ -15084,16 +15084,16 @@ msgstr "giảm giá %s trong tổng đơn hàng"
 #: includes/admin/reports/class-wc-admin-report.php:501
 msgid "Sold 1 item in the last %2$d days"
 msgid_plural "Sold %1$d items in the last %2$d days"
-msgstr[0] ""
+msgstr[0] "Đã bán %1$d mặt hàng trong %2$d ngày qua"
 
 #. translators: 1: total income 2: days
 #: includes/admin/reports/class-wc-admin-report.php:498
 msgid "Sold %1$s worth in the last %2$d days"
-msgstr ""
+msgstr "Đã bán %1$s có giá trị trong %2$d ngày qua"
 
 #: includes/api/class-wc-rest-product-variations-controller.php:615
 msgid "Variation description."
-msgstr ""
+msgstr "Mô tả biến thể."
 
 #: includes/api/class-wc-rest-product-variations-controller.php:743
 #: includes/api/class-wc-rest-products-controller.php:1592
@@ -15112,12 +15112,12 @@ msgstr "Tương tự bản gốc"
 #: includes/admin/settings/views/html-admin-page-shipping-classes.php:8
 #: includes/class-wc-post-types.php:154
 msgid "Shipping classes"
-msgstr ""
+msgstr "Các lớp vận chuyển"
 
 #. translators: %s: dimension unit
 #: includes/admin/meta-boxes/views/html-variation-admin.php:239
 msgid "Dimensions (L&times;W&times;H) (%s)"
-msgstr ""
+msgstr "Kích thước (L&times;W&times;H) (%s)"
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:164
 msgid "Enter a quantity to enable stock management at variation level, or leave blank to use the parent product's options."
@@ -15200,7 +15200,7 @@ msgstr "http://"
 #: includes/admin/meta-boxes/views/html-product-download.php:9
 #: includes/admin/meta-boxes/views/html-product-variation-download.php:8
 msgid "File name"
-msgstr ""
+msgstr "Tên tệp"
 
 #: includes/admin/meta-boxes/views/html-product-attribute.php:74
 msgid "Enter some text, or some attributes by \"%s\" separating values."
@@ -15221,7 +15221,7 @@ msgstr "Chọn tên chủng loại của thuộc tính"
 
 #: includes/admin/settings/views/html-admin-page-shipping-zone-methods.php:63
 msgid "Shipping methods"
-msgstr ""
+msgstr "Phương thức vận chuyển"
 
 #: includes/admin/meta-boxes/views/html-order-shipping.php:21
 msgid "Shipping name"
@@ -15284,11 +15284,11 @@ msgstr "Cổng thanh toán dùng để đặt đơn hàng này không hỗ trợ
 
 #: includes/admin/meta-boxes/views/html-order-items.php:242
 msgid "Payment gateway"
-msgstr ""
+msgstr "Cổng thanh toán"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:230
 msgid "Reason for refund (optional):"
-msgstr ""
+msgstr "Lý do hoàn lại tiền (tùy chọn):"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:223
 #: includes/admin/reports/class-wc-report-sales-by-date.php:744
@@ -15335,7 +15335,7 @@ msgstr "Đã hoàn lại tiền"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:149
 msgid "Order total"
-msgstr ""
+msgstr "Tổng số đơn đặt hàng"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:38
 #: includes/admin/meta-boxes/views/html-order-items.php:39
@@ -15395,7 +15395,7 @@ msgstr "ID sản phẩm"
 
 #: includes/admin/meta-boxes/views/html-order-fee.php:21
 msgid "Fee name"
-msgstr ""
+msgstr "Tên phí"
 
 #: includes/admin/meta-boxes/views/html-order-download-permission.php:30
 msgid "Access expires"
@@ -15413,7 +15413,7 @@ msgstr[0] "%s lần tải về"
 
 #: includes/admin/meta-boxes/views/html-order-download-permission.php:8
 msgid "Revoke access"
-msgstr ""
+msgstr "Thu hồi truy cập"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-images.php:78
 msgid "Add product gallery images"
@@ -15425,7 +15425,7 @@ msgstr "Thêm vào thư viện"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-images.php:78
 msgid "Add images to product gallery"
-msgstr ""
+msgstr "Thêm hình ảnh vào bộ sưu tập sản phẩm"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-images.php:58
 #: includes/admin/meta-boxes/class-wc-meta-box-product-images.php:78
@@ -15438,7 +15438,7 @@ msgstr "Xóa ảnh"
 #: includes/api/legacy/v3/class-wc-api-products.php:1782
 #: includes/api/v1/class-wc-rest-products-controller.php:1372
 msgid "Variation #%1$s of %2$s"
-msgstr ""
+msgstr "Biến thể #%1$s của %2$s"
 
 #: includes/abstracts/abstract-wc-product.php:1183
 msgid "The downloadable file %s cannot be used as it does not exist on the server."
@@ -15446,7 +15446,7 @@ msgstr "Không thể sử dụng file đã tải xuống vì lí do không tìm 
 
 #: includes/abstracts/abstract-wc-product.php:1175
 msgid "The downloadable file %1$s cannot be used as it does not have an allowed file type. Allowed types include: %2$s"
-msgstr ""
+msgstr "Không thể sử dụng tập tin tải về %1$s vì nó không là loại tệp được cho phép. Các loại được cho phép bao gồm: %2$s"
 
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:101
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:135
@@ -15631,7 +15631,7 @@ msgstr "Bán chéo"
 
 #: includes/admin/meta-boxes/views/html-product-data-linked-products.php:40
 msgid "Upsells are products which you recommend instead of the currently viewed product, for example, products that are more profitable or better quality or more expensive."
-msgstr ""
+msgstr "Upsells là sản phẩm mà bạn đề xuất thay vì sản phẩm được xem hiện tại, ví dụ như các sản phẩm có lợi nhuận cao hơn hoặc chất lượng tốt hơn hoặc đắt hơn."
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:432
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:571
@@ -15774,7 +15774,7 @@ msgstr "Số lượng trong kho. Nếu nó là một sản phẩm có biến th�
 #: includes/admin/views/html-bulk-edit-product.php:269
 #: includes/admin/views/html-quick-edit-product.php:183
 msgid "Stock qty"
-msgstr ""
+msgstr "Số lượng trong kho"
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:29
 msgid "Enable stock management at product level"
@@ -15978,7 +15978,7 @@ msgstr "Sản phẩm có thể tải về cho phép truy cập vào một tập 
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:60
 msgid "Virtual products are intangible and are not shipped."
-msgstr ""
+msgstr "Sản phẩm ảo là vô hình và không được vận chuyển."
 
 #: includes/admin/meta-boxes/views/html-product-data-panel.php:11
 msgid "Product Type"
@@ -16031,7 +16031,7 @@ msgstr "thêm vào ngày %1$s lúc %2$s"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-downloads.php:67
 msgid "Grant access"
-msgstr ""
+msgstr "Cấp phép truy cập"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-downloads.php:66
 msgid "Search for a downloadable product&hellip;"
@@ -16044,11 +16044,11 @@ msgstr "Tập tin %d"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:438
 msgid "Customer notes about the order"
-msgstr ""
+msgstr "Khách hàng ghi chú về đơn đặt hàng"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:437
 msgid "Customer provided note"
-msgstr ""
+msgstr "Ghi chú do khách hàng cung cấp"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:385
 msgid "No shipping address set."
@@ -16061,7 +16061,7 @@ msgstr "Tải địa chỉ giao nhận hàng"
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:371
 #: includes/gateways/paypal/includes/settings-paypal.php:82
 msgid "Shipping details"
-msgstr ""
+msgstr "Chi tiết giao hàng"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:361
 msgid "Transaction ID"
@@ -16110,7 +16110,7 @@ msgstr "Tải địa chỉ thanh toán"
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:275
 #: templates/checkout/form-billing.php:33
 msgid "Billing details"
-msgstr ""
+msgstr "Chi tiết thanh toán"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:238
 msgid "Customer:"
@@ -16134,7 +16134,7 @@ msgstr "Chi tiết chung"
 
 #: includes/cli/class-wc-cli-runner.php:102
 msgid "Customer ID."
-msgstr ""
+msgstr "ID khách hàng."
 
 #. translators: %s: payment method
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:182
@@ -16162,7 +16162,7 @@ msgstr "Phiếu ưu đãi đã tồn tại - khách hàng sẽ sử dụng phi�
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:284
 msgid "How many times this coupon can be used by an individual user. Uses billing email for guests, and user ID for logged in users."
-msgstr ""
+msgstr "Phiếu giảm giá này có thể được sử dụng bởi một người dùng cá nhân bao nhiêu lần. Sử dụng email thanh toán cho khách và ID người dùng cho người dùng đã đăng nhập."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:282
 msgid "Usage limit per user"
@@ -16186,7 +16186,7 @@ msgstr "Giới hạn sử dụng cho mỗi phiếu ưu đãi"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:228
 msgid "List of allowed emails to check against the customer billing email when an order is placed. Separate email addresses with commas."
-msgstr ""
+msgstr "Danh sách email cho phép kiểm tra email thanh toán của khách hàng khi đặt hàng. Tách địa chỉ email bằng dấu phẩy."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:227
 msgid "No restrictions"
@@ -16231,7 +16231,7 @@ msgstr "Tìm kiếm sản phẩm&hellip;"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:146
 msgid "Check this box if the coupon should not apply to items on sale. Per-item coupons will only work if the item is not on sale. Per-cart coupons will only work if there are items in the cart that are not on sale."
-msgstr ""
+msgstr "Chọn hộp này nếu phiếu giảm giá không được áp dụng cho các mặt hàng được bán. Các phiếu giảm giá mỗi mục sẽ chỉ hoạt động nếu mặt hàng đó không bán. Phiếu giảm giá mỗi giỏ hàng sẽ chỉ hoạt động nếu có mặt hàng trong giỏ hàng không được bán."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:145
 msgid "Exclude sale items"
@@ -16267,7 +16267,7 @@ msgstr "Ngày hết hạn phiếu ưu đãi"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:90
 msgid "Check this box if the coupon grants free shipping. A <a href=\"%s\" target=\"_blank\">free shipping method</a> must be enabled in your shipping zone and be set to require \"a valid free shipping coupon\" (see the \"Free Shipping Requires\" setting)."
-msgstr ""
+msgstr "Chọn hộp này nếu phiếu mua hàng tặng miễn phí vận chuyển. Phải được bật <a href=\"%s\" target=\"_blank\"> phương pháp giao hàng miễn phí</a> trong khu vực giao hàng của bạn và được yêu cầu \"phiếu giảm giá miễn phí vận chuyển hợp lệ\" (xem cài đặt \"Yêu cầu gửi hàng miễn phí\")."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:89
 msgid "Allow free shipping"
@@ -16283,11 +16283,11 @@ msgstr "Loại ưu đãi"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:53
 msgid "Usage limits"
-msgstr ""
+msgstr "Giới hạn sử dụng"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:48
 msgid "Usage restriction"
-msgstr ""
+msgstr "Hạn chế sử dụng"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:43
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:80
@@ -16337,11 +16337,11 @@ msgstr "Xin chào! Hãy tải lên một tập tin CSV có chứa các mức thu
 
 #: includes/admin/importers/class-wc-tax-rate-importer.php:217
 msgid "Import tax rates"
-msgstr ""
+msgstr "Thuế suất thuế nhập khẩu"
 
 #: includes/admin/importers/class-wc-tax-rate-importer.php:181
 msgid "View tax rates"
-msgstr ""
+msgstr "Xem mức thuế suất"
 
 #: includes/admin/importers/class-wc-tax-rate-importer.php:181
 msgid "All done!"
@@ -16366,7 +16366,7 @@ msgstr "Cảm ơn bạn :)"
 
 #: includes/admin/class-wc-admin.php:198
 msgid "HTML email template"
-msgstr ""
+msgstr "Mẫu email HTML"
 
 #: includes/class-wc-install.php:907
 msgid "Docs"
@@ -16389,12 +16389,12 @@ msgstr "Webhook này chưa có log."
 #: includes/admin/class-wc-admin-webhooks.php:443
 #: includes/class-wc-post-types.php:436
 msgid "Search webhooks"
-msgstr ""
+msgstr "Tìm kiếm webhooks"
 
 #: includes/admin/class-wc-admin-webhooks.php:429
 #: includes/class-wc-post-types.php:429
 msgid "Add webhook"
-msgstr ""
+msgstr "Thêm webhook"
 
 #: includes/admin/class-wc-admin-webhooks.php:429
 #: includes/admin/settings/class-wc-settings-api.php:44
@@ -16414,31 +16414,31 @@ msgstr "Webhook được cập nhật thành công"
 #: includes/admin/class-wc-admin-webhooks.php:409
 msgid "%d webhook permanently deleted."
 msgid_plural "%d webhooks permanently deleted."
-msgstr[0] ""
+msgstr[0] "%d webhook bị xóa vĩnh viễn."
 
 #. translators: %d: count
 #: includes/admin/class-wc-admin-webhooks.php:402
 msgid "%d webhook restored from the Trash."
 msgid_plural "%d webhooks restored from the Trash."
-msgstr[0] ""
+msgstr[0] "%d webhook đã khôi phục từ Thùng rác."
 
 #. translators: %d: count
 #: includes/admin/class-wc-admin-webhooks.php:395
 msgid "%d webhook moved to the Trash."
 msgid_plural "%d webhooks moved to the Trash."
-msgstr[0] ""
+msgstr[0] "%d webhook đã chuyển đến Thùng rác."
 
 #: includes/admin/class-wc-admin-webhooks.php:318
 msgid "You do not have permission to delete Webhooks"
-msgstr ""
+msgstr "Bạn không có quyền xóa Webhooks"
 
 #: includes/admin/class-wc-admin-webhooks.php:289
 msgid "You do not have permission to edit Webhooks"
-msgstr ""
+msgstr "Bạn không có quyền chỉnh sửa Webhooks"
 
 #: includes/admin/class-wc-admin-webhooks.php:204
 msgid "You do not have permission to create Webhooks"
-msgstr ""
+msgstr "Bạn không có quyền tạo Webhooks"
 
 #: includes/admin/class-wc-admin-webhooks.php:49
 #: includes/admin/class-wc-admin-webhooks.php:215
@@ -16462,13 +16462,13 @@ msgstr "Webhook được tạo vào %s"
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:267
 msgid "Empty trash"
-msgstr ""
+msgstr "Dọn sạch thùng rác"
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:256
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:62
 #: includes/admin/settings/views/html-webhooks-edit.php:173
 msgid "Move to trash"
-msgstr ""
+msgstr "Chuyển vào thùng rác"
 
 #. translators: %s: count
 #: includes/admin/class-wc-admin-webhooks-table-list.php:216
@@ -16511,7 +16511,7 @@ msgstr "Điều khoản của thuộc tính được gán cho sản phẩm và b
 
 #: includes/admin/class-wc-admin-taxonomies.php:295
 msgid "Product categories for your store can be managed here. To change the order of categories on the front-end you can drag and drop to sort them. To see more categories listed click the \"screen options\" link at the top-right of this page."
-msgstr ""
+msgstr "Danh mục sản phẩm cho cửa hàng của bạn có thể được quản lý tại đây. Để thay đổi thứ tự các danh mục trên giao diện người dùng, bạn có thể kéo và thả để sắp xếp chúng. Để xem thêm danh mục được liệt kê, hãy nhấp vào liên kết \"tùy chọn màn hình\" ở trên cùng bên phải của trang này."
 
 #: includes/admin/class-wc-admin-taxonomies.php:132
 #: includes/admin/class-wc-admin-taxonomies.php:242
@@ -16566,7 +16566,7 @@ msgstr "Điều này sẽ đặt lại các thiết lập theo dõi sử dụng 
 
 #: includes/api/class-wc-rest-system-status-tools-controller.php:169
 msgid "Delete WooCommerce tax rates"
-msgstr ""
+msgstr "Xóa thuế suất WooCommerce"
 
 #: includes/api/class-wc-rest-system-status-tools-controller.php:148
 msgid "This tool will reset the admin, customer and shop_manager roles to default. Use this if your users cannot access all of the WooCommerce admin pages."
@@ -16598,7 +16598,7 @@ msgstr "Công cụ này sẽ xóa hết TẤT CẢ các bộ nhớ đệm tạm 
 
 #: includes/api/class-wc-rest-system-status-tools-controller.php:126
 msgid "Expired transients"
-msgstr ""
+msgstr "Hết hiệu lực"
 
 #: includes/api/class-wc-rest-system-status-tools-controller.php:123
 msgid "This tool will clear the product/shop transients cache."
@@ -16639,11 +16639,11 @@ msgstr "Vai trò thiết lập lại thành công"
 
 #: includes/api/class-wc-rest-system-status-tools-controller.php:391
 msgid "%d transients rows cleared"
-msgstr ""
+msgstr "%d các hàng bị xóa"
 
 #: includes/api/class-wc-rest-system-status-tools-controller.php:388
 msgid "Product transients cleared"
-msgstr ""
+msgstr "Độ trễ của sản phẩm đã được xóa"
 
 #: includes/admin/class-wc-admin-post-types.php:1947
 msgid "Create your first product!"
@@ -16651,7 +16651,7 @@ msgstr "Tạo sản phẩm đầu tiên"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1675
 msgid "Next step"
-msgstr ""
+msgstr "Bước tiếp theo"
 
 #: includes/admin/views/html-notice-tracking.php:13
 #: includes/wc-product-functions.php:797
@@ -16660,7 +16660,7 @@ msgstr "Cho phép"
 
 #: includes/admin/views/html-notice-tracking.php:11
 msgid "Want to help make WooCommerce even more awesome? Allow WooCommerce to collect non-sensitive diagnostic data and usage information, and get %1$s discount on your next WooThemes purchase. <a href=\"%2$s\" target=\"_blank\">Find out more</a>."
-msgstr ""
+msgstr "Bạn muốn giúp WooCommerce trở nên tuyệt vời hơn? Cho phép WooCommerce thu thập dữ liệu chẩn đoán không nhạy cảm và thông tin sử dụng và nhận được %1$s giảm giá mua WooThemes tiếp theo của bạn. <a href=\"%2$s\" target=\"_blank\">Tìm hiểu thêm</a>."
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:70
 msgid "Enable cash on delivery"
@@ -16670,7 +16670,7 @@ msgstr "Cho phép trả tiền mặt khi nhận hàng"
 #: includes/gateways/cod/class-wc-gateway-cod.php:52
 #: includes/gateways/cod/class-wc-gateway-cod.php:79
 msgid "Cash on delivery"
-msgstr ""
+msgstr "Thanh toán khi giao hàng"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1279
 msgid "Offline Payments"
@@ -16781,7 +16781,7 @@ msgstr "Tiếp tục"
 #: includes/class-wc-install.php:387
 msgctxt "Page title"
 msgid "My account"
-msgstr ""
+msgstr "Tài khoản"
 
 #: includes/class-wc-install.php:382
 msgctxt "Page title"
@@ -16804,7 +16804,7 @@ msgstr "Không phải bây giờ"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:415
 msgid "Let's go!"
-msgstr ""
+msgstr "Đi nào!"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:227
 msgid "WooCommerce &rsaquo; Setup Wizard"
@@ -16842,7 +16842,7 @@ msgstr "Chọn một trang&hellip;"
 
 #: includes/admin/class-wc-admin-settings.php:516
 msgid "Hard crop?"
-msgstr ""
+msgstr "Cắt cứng?"
 
 #: includes/admin/class-wc-admin-settings.php:507
 msgid "The settings of this image size have been disabled because its values are being overwritten by a filter."
@@ -16878,11 +16878,11 @@ msgstr "Sắp hết hàng"
 
 #: includes/admin/class-wc-admin-reports.php:83
 msgid "Customer list"
-msgstr ""
+msgstr "Danh sách khách hàng"
 
 #: includes/admin/class-wc-admin-reports.php:77
 msgid "Customers vs. guests"
-msgstr ""
+msgstr "Khách hàng và khách"
 
 #: includes/admin/class-wc-admin-reports.php:74
 msgid "Customers"
@@ -16921,7 +16921,7 @@ msgstr "Email"
 #: includes/admin/class-wc-admin-profile.php:80
 #: includes/admin/class-wc-admin-profile.php:140
 msgid "State / County or state code"
-msgstr ""
+msgstr "Mã nhà nước/quận hoặc tiểu bang"
 
 #: includes/admin/class-wc-admin-profile.php:76
 #: includes/admin/class-wc-admin-profile.php:136
@@ -17110,7 +17110,7 @@ msgstr[0] "%d ghi chú"
 #: includes/admin/class-wc-admin-post-types.php:612
 msgid "Plus %d other note"
 msgid_plural "Plus %d other notes"
-msgstr[0] ""
+msgstr[0] "Cộng them %d lưu ý khác"
 
 #: includes/admin/class-wc-admin-post-types.php:592
 #: includes/admin/class-wc-admin-post-types.php:626
@@ -17134,7 +17134,7 @@ msgstr "Xem"
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:60
 #: includes/admin/settings/views/html-webhooks-edit.php:173
 msgid "Delete permanently"
-msgstr ""
+msgstr "Xóa vĩnh viễn"
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:109
 msgid "Delete this item permanently"
@@ -17234,11 +17234,11 @@ msgstr "Tổng cộng"
 #: includes/admin/class-wc-admin-post-types.php:322
 #: includes/class-wc-checkout.php:202
 msgid "Order notes"
-msgstr ""
+msgstr "Ghi chú đơn đặt hàng"
 
 #: includes/admin/class-wc-admin-post-types.php:321
 msgid "Customer message"
-msgstr ""
+msgstr "Tin nhắn của khách hàng"
 
 #: includes/admin/class-wc-admin-post-types.php:320
 msgid "Ship to"
@@ -17248,7 +17248,7 @@ msgstr "Giao hàng đến"
 #: includes/admin/helper/class-wc-helper.php:280
 #: includes/admin/helper/class-wc-helper.php:290
 msgid "Purchase"
-msgstr ""
+msgstr "Mua"
 
 #: includes/admin/class-wc-admin-post-types.php:318
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:165
@@ -17496,7 +17496,7 @@ msgstr "Đơn hàng đã được cập nhật."
 #. translators: %s: product url
 #: includes/admin/class-wc-admin-post-types.php:159
 msgid "Product draft updated. <a target=\"_blank\" href=\"%s\">Preview product</a>"
-msgstr ""
+msgstr "Đã cập nhật sản phẩm nháp. <a target=\"_blank\" href=\"%s\">Xem trước sản phẩm</a>"
 
 #: includes/admin/class-wc-admin-post-types.php:156
 #: includes/admin/class-wc-admin-post-types.php:176
@@ -17511,12 +17511,12 @@ msgstr "M j, Y @ G:i"
 #. translators: 1: date 2: product url
 #: includes/admin/class-wc-admin-post-types.php:155
 msgid "Product scheduled for: %1$s. <a target=\"_blank\" href=\"%2$s\">Preview product</a>"
-msgstr ""
+msgstr "Sản phẩm được lên lịch cho: %1$s. <a target=\"_blank\" href=\"%2$s\">Xem trước sản phẩm</a>"
 
 #. translators: %s: product url
 #: includes/admin/class-wc-admin-post-types.php:152
 msgid "Product submitted. <a target=\"_blank\" href=\"%s\">Preview product</a>"
-msgstr ""
+msgstr "Đã gửi sản phẩm. <a target=\"_blank\" href=\"%s\">Xem trước sản phẩm</a>"
 
 #: includes/admin/class-wc-admin-post-types.php:150
 msgid "Product saved."
@@ -17558,7 +17558,7 @@ msgstr "Khi bạn kết thúc chỉnh sửa sản phẩm, hãy chọn vào biể
 
 #: includes/admin/class-wc-admin-pointers.php:204
 msgid "Publish your product!"
-msgstr ""
+msgstr "Xuất bản sản phẩm của bạn!"
 
 #: includes/admin/class-wc-admin-pointers.php:193
 msgid "Optionally assign categories to your products to make them easier to browse through and find in your store."
@@ -17571,7 +17571,7 @@ msgstr "Các danh mục sản phẩm"
 
 #: includes/admin/class-wc-admin-pointers.php:181
 msgid "You can optionally \"tag\" your products here. Tags are a method of labeling your products to make them easier for customers to find."
-msgstr ""
+msgstr "Bạn có thể lựa chọn \"thẻ\" cho các sản phẩm của bạn ở đây. Thẻ là một phương pháp ghi nhãn sản phẩm của bạn để giúp khách hàng tìm thấy dễ dàng hơn."
 
 #: includes/admin/class-wc-admin-help.php:131
 msgid "Product Tags"
@@ -17584,7 +17584,7 @@ msgstr "Tải lên hoặc gán một hình ảnh đến sản phẩm của bạn
 #: includes/admin/class-wc-admin-pointers.php:168
 #: includes/admin/settings/class-wc-settings-products.php:174
 msgid "Product images"
-msgstr ""
+msgstr "Hình ảnh sản phẩm"
 
 #: includes/admin/class-wc-admin-pointers.php:157
 msgid "Add a quick summary for your product here. This will appear on the product page under the product name."
@@ -17592,7 +17592,7 @@ msgstr "Thêm một bản tóm tắt nhanh chóng cho sản phẩm của bạn �
 
 #: includes/admin/class-wc-admin-pointers.php:141
 msgid "Next you need to give your product a price."
-msgstr ""
+msgstr "Tiếp theo bạn cần cung cấp cho sản phẩm của bạn một mức giá."
 
 #: includes/admin/class-wc-admin-pointers.php:140
 msgid "Prices"
@@ -17608,7 +17608,7 @@ msgstr "Đánh dấu vào hộp \"Sản phẩm ảo\" nếu nó không là một
 
 #: includes/admin/class-wc-admin-pointers.php:108
 msgid "Virtual products"
-msgstr ""
+msgstr "Sản phẩm ảo"
 
 #: includes/admin/class-wc-admin-pointers.php:93
 msgid "Finally, external products are for linking off-site."
@@ -17628,7 +17628,7 @@ msgstr "Chọn một loại sản phẩm này. Đơn giản là thích hợp cho
 
 #: includes/admin/class-wc-admin-pointers.php:89
 msgid "Choose product type"
-msgstr ""
+msgstr "Chọn loại sản phẩm"
 
 #: includes/admin/class-wc-admin-pointers.php:74
 msgid "This is your products main body of content. Here you should describe your product in detail."
@@ -17636,7 +17636,7 @@ msgstr "Đây là sản phẩm của bạn phần chính của nội dung. Ở �
 
 #: includes/admin/class-wc-admin-pointers.php:73
 msgid "Product description"
-msgstr ""
+msgstr "Mô tả sản phẩm."
 
 #: includes/admin/class-wc-admin-pointers.php:61
 msgid "Give your new product a name here. This is a required field and will be what your customers will see in your store."
@@ -17654,7 +17654,7 @@ msgstr "Nhập một mặc định riêng để sử dụng. Mặc định riên
 
 #: includes/admin/class-wc-admin-permalink-settings.php:133
 msgid "Custom base"
-msgstr ""
+msgstr "Cơ sở tùy chỉnh"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:127
 msgid "Shop base with category"
@@ -17739,7 +17739,7 @@ msgstr "Đánh giá"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:134
 msgid "Coupon data"
-msgstr ""
+msgstr "Dữ liệu phiếu giảm giá"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:130
 msgid "%s actions"
@@ -17751,20 +17751,20 @@ msgstr "Lưu ý: Sẽ tự động cấp phép cho các mặt hàng trong đơn 
 
 #: includes/admin/class-wc-admin-meta-boxes.php:129
 msgid "Downloadable product permissions"
-msgstr ""
+msgstr "Cho phép sản phẩm có thể tải xuống"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:128
 msgid "%s notes"
-msgstr ""
+msgstr "%s ghi chú"
 
 #. translators: %s: number
 #: includes/admin/settings/views/html-settings-tax.php:104
 msgid "%s items"
-msgstr "%s item"
+msgstr "%s mục"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:126
 msgid "%s data"
-msgstr ""
+msgstr "%s dữ liệu"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:121
 msgid "Product gallery"
@@ -17792,7 +17792,7 @@ msgstr "Thêm vào menu"
 #: includes/admin/class-wc-admin-customize.php:41
 #: includes/admin/class-wc-admin-menus.php:259
 msgid "WooCommerce endpoints"
-msgstr ""
+msgstr "Các điểm cuối WooCommerce"
 
 #: includes/admin/class-wc-admin-menus.php:166
 #: includes/class-wc-post-types.php:336
@@ -17802,7 +17802,7 @@ msgstr "Đơn hàng"
 
 #: includes/admin/class-wc-admin-menus.php:80
 msgid "WooCommerce settings"
-msgstr ""
+msgstr "Cài đặt WooCommerce"
 
 #: includes/admin/class-wc-admin-menus.php:72
 msgid "Sales reports"
@@ -17818,7 +17818,7 @@ msgstr "Nhập <strong>mức thuế suất</strong> vào cửa hàng thông qua 
 
 #: includes/admin/class-wc-admin-importers.php:106
 msgid "WooCommerce tax rates (CSV)"
-msgstr ""
+msgstr "Mức thuế suất WooCommerce (CSV)"
 
 #: includes/admin/class-wc-admin-help.php:242
 msgid "Official extensions"
@@ -17834,7 +17834,7 @@ msgstr "Dự án trên Github"
 
 #: includes/admin/class-wc-admin-help.php:239
 msgid "WordPress.org project"
-msgstr ""
+msgstr "Dự án WordPress.org"
 
 #: includes/admin/class-wc-admin-help.php:238
 msgid "About WooCommerce"
@@ -17859,7 +17859,7 @@ msgstr "Đã tìm thấy lỗi?"
 
 #: includes/admin/class-wc-admin-help.php:223
 msgid "View education partners"
-msgstr ""
+msgstr "Xem đối tác giáo dục"
 
 #: includes/admin/class-wc-admin-help.php:222
 msgid "If you would like to learn about using WooCommerce from an expert, consider following a WooCommerce course offered by one of our educational partners."
@@ -18004,11 +18004,11 @@ msgstr "%1$s bán chạy nhất tháng này (đã bán được %2$d)"
 #: includes/admin/class-wc-admin-dashboard.php:39
 #: includes/admin/class-wc-admin-menus.php:120
 msgid "WooCommerce status"
-msgstr ""
+msgstr "Trạng thái WooCommerce"
 
 #: includes/admin/class-wc-admin-dashboard.php:37
 msgid "WooCommerce recent reviews"
-msgstr ""
+msgstr "WooCommerce đánh giá gần đây"
 
 #: includes/admin/class-wc-admin-attributes.php:428
 msgid "Are you sure you want to delete this attribute?"
@@ -18016,7 +18016,7 @@ msgstr "Bạn có muốn xoá thuộc tính này?"
 
 #: includes/admin/class-wc-admin-attributes.php:417
 msgid "Add attribute"
-msgstr ""
+msgstr "Thêm thuộc tính"
 
 #: includes/admin/class-wc-admin-attributes.php:362
 msgid "Attributes let you define extra product data, such as size or color. You can use these attributes in the shop sidebar using the \"layered nav\" widgets. Please note: you cannot rename an attribute later on."
@@ -18024,7 +18024,7 @@ msgstr "Thuộc tính cho phép bạn xác định dữ liệu bổ sung cho s�
 
 #: includes/admin/class-wc-admin-attributes.php:361
 msgid "Add new attribute"
-msgstr ""
+msgstr "Thêm thuộc tính mới"
 
 #: includes/admin/class-wc-admin-attributes.php:351
 msgid "No attributes currently exist."
@@ -18141,7 +18141,7 @@ msgstr "Cho phép lưu trữ?"
 #: includes/admin/class-wc-admin-attributes.php:206
 #: includes/admin/class-wc-admin-attributes.php:375
 msgid "Unique slug/reference for the attribute; must be no more than 28 characters."
-msgstr ""
+msgstr "Dấu/tham chiếu duy nhất cho thuộc tính; không được nhiều hơn 28 ký tự."
 
 #: includes/admin/class-wc-admin-attributes.php:202
 #: includes/admin/class-wc-admin-attributes.php:283
@@ -18499,11 +18499,11 @@ msgstr "API key đã được xóa thành công."
 
 #: includes/admin/class-wc-admin-api-keys.php:78
 msgid "Search key"
-msgstr ""
+msgstr "Khóa cần tìm kiếm"
 
 #: includes/admin/class-wc-admin-api-keys.php:64
 msgid "Add key"
-msgstr ""
+msgstr "Thêm khóa"
 
 #: includes/admin/class-wc-admin-api-keys.php:64
 #: includes/admin/settings/class-wc-settings-api.php:43
@@ -18559,7 +18559,7 @@ msgstr "API key"
 #: includes/admin/class-wc-admin-api-keys-table-list.php:44
 #: includes/admin/settings/views/html-keys-edit.php:78
 msgid "Last access"
-msgstr ""
+msgstr "Truy cập lần cuối"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:43
 #: includes/admin/settings/views/html-keys-edit.php:48
@@ -18574,7 +18574,7 @@ msgstr "Thành viên"
 #: includes/admin/class-wc-admin-api-keys-table-list.php:41
 #: includes/admin/settings/views/html-keys-edit.php:70
 msgid "Consumer key ending in"
-msgstr ""
+msgstr "Khóa người dùng kết thúc bằng"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:40
 #: includes/admin/class-wc-admin-post-types.php:301
@@ -18672,7 +18672,7 @@ msgstr "Số thẻ"
 
 #: includes/class-wc-ajax.php:1108
 msgid "Item %1$s stock increased from %2$s to %3$s."
-msgstr ""
+msgstr "Mặt hàng %1$s trong kho tăng từ %2$s đến %3$s."
 
 #. translators: 1: old order status 2: new order status
 #: includes/class-wc-order.php:316
@@ -21063,7 +21063,7 @@ msgstr "Daman và Diu"
 
 #: i18n/states/IN.php:48
 msgid "Dadra and Nagar Haveli"
-msgstr ""
+msgstr "Dadra and Nagar Haveli"
 
 #: i18n/states/IN.php:47
 msgid "Chandigarh"
