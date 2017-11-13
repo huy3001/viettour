@@ -1,0 +1,16 @@
+/*
+*   Custom style for Woohoo theme
+*/
+
+/* Language Switcher */
+
+.bdaia-header-default .topbar .top-nav > li.lang-item img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.widget.bdaia-widget .widget-inner li.lang-item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}

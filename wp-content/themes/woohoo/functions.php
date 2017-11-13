@@ -22,3 +22,12 @@ function woohoo_get_theme_version() {
 	$current_theme = wp_get_theme( woohoo_get_theme_name() );
 	return $current_theme->exists() ? $current_theme->get( 'Version' ) : WOOHOO_THEME_VER;
 }
+
+/**
+# Get theme custom style
+ * ----------------------------------------------------------------------------- */
+function woohoo_custom_style() {
+	wp_enqueue_style( 'custom',   get_template_directory_uri() . '/css/custom.css');
+}
+
+add_action( 'wp_enqueue_scripts','woohoo_custom_style' );
